@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
+# macOS
+.DS_Store
+
+# Editor
+.idea/
+.vscode/
+*.swp
+
+# Local-only output artifacts (regeneratable via scripts/)
+# Note: _parity_run8_final.jsonl and _discrimination_per_task.jsonl
+# ARE committed — they're small, deterministic, and prove the leaderboard.
+# This pattern reserves room for future ad-hoc local outputs:
+outputs/_scratch_*
+
+# Future submissions land here once external contributors PR them in
+submissions/_draft_*
