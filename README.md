@@ -25,9 +25,9 @@ configs:
         path: tasks/hooks.jsonl
       - split: nextjs
         path: tasks/nextjs.jsonl
-      - split: server-actions
+      - split: server_actions
         path: tasks/server-actions.jsonl
-      - split: api-routes
+      - split: api_routes
         path: tasks/api-routes.jsonl
       - split: form
         path: tasks/form.jsonl
@@ -43,8 +43,66 @@ configs:
         path: tasks/database.jsonl
       - split: utils
         path: tasks/utils.jsonl
-      - split: middleware
-        path: tasks/middleware.jsonl
+dataset_info:
+  features:
+    - name: task_id
+      dtype: string
+    - name: task_type
+      dtype: string
+    - name: category
+      dtype: string
+    - name: subcategory
+      dtype: string
+    - name: difficulty
+      dtype: string
+    - name: tags
+      sequence: string
+    - name: file_path
+      dtype: string
+    - name: prompt
+      dtype: string
+    - name: context
+      struct:
+        - name: prefix
+          dtype: string
+        - name: cursor_position
+          dtype: int64
+        - name: suffix
+          dtype: string
+    - name: checks
+      struct:
+        - name: static
+          struct:
+            - name: must_contain
+              sequence: string
+            - name: must_not_contain
+              sequence: string
+            - name: must_match_regex
+              sequence: string
+            - name: min_lines
+              dtype: int64
+            - name: max_lines
+              dtype: int64
+        - name: execution
+          dtype: string
+        - name: judge
+          dtype: string
+    - name: metadata
+      struct:
+        - name: source
+          dtype: string
+        - name: schema_version
+          dtype: string
+        - name: benchmark_version
+          dtype: string
+        - name: license
+          dtype: string
+        - name: created
+          dtype: string
+        - name: legacy_id
+          dtype: string
+        - name: judge_brief
+          dtype: string
 ---
 
 # NextBench
@@ -97,12 +155,21 @@ By category:
 ```python
 from datasets import load_dataset
 
-# All categories combined:
+# Load every category as a separate split:
 ds = load_dataset("baablabs/nextbench")
+print(ds)
+# DatasetDict with splits: react, hooks, nextjs, server_actions, api_routes,
+#                          form, tailwind, typescript, auth, payments,
+#                          database, utils
+# (middleware category is reserved for v0.2; not loadable until populated)
 
-# Single category:
+# Load a single category:
 react_tasks = load_dataset("baablabs/nextbench", split="react")
+api_routes = load_dataset("baablabs/nextbench", split="api_routes")
+server_actions = load_dataset("baablabs/nextbench", split="server_actions")
 ```
+
+**Split naming note:** HF Datasets split names can't contain hyphens, so `server-actions` and `api-routes` (as they appear in the `category` field) map to `server_actions` and `api_routes` as split names. The raw JSONL files keep their canonical hyphenated names.
 
 ---
 
