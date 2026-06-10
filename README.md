@@ -111,12 +111,13 @@ dataset_info:
 
 NextBench measures how well a language model can complete real-world Next.js / React / TypeScript code. Every task is an autocomplete prompt — a partial file with the cursor at the end — graded against deterministic checks: must-contain patterns, forbidden patterns, regex matches, and output length.
 
-- **355 tasks** across 13 categories (v0.1)
+- **443 tasks** across 16 categories (v0.2)
+- **12-model leaderboard** spanning 1.3B–30B parameters; reproducible from committed raw outputs
 - **Deterministic scoring** — no LLM judge, no subjectivity, full reproducibility
 - **Completion-shaped** — tasks model what real Next.js development looks like inside an IDE
 - **Open source** — MIT-licensed tasks and tooling
 
-NextBench is maintained by [BaaB Labs](https://huggingface.co/baablabs) but is benchmark-first: model entries from any lab are welcome.
+NextBench is maintained by [BaaB Labs](https://baablabs.com) but is benchmark-first: model entries from any lab are welcome.
 
 ---
 
@@ -140,11 +141,11 @@ python grade.py --input outputs/qwen2.5-coder_7b.jsonl
 Output:
 
 ```
-OVERALL: 1267/1420 = 89.23%
+OVERALL: 1490/1772 = 84.09%
 
 By category:
-   105/ 108   97.2%   hooks
-   138/ 144   95.8%   api-routes
+   97/100   97.0%   hooks
+   181/208  87.0%   server-actions
    ...
 ```
 
@@ -160,8 +161,8 @@ ds = load_dataset("baablabs/nextbench")
 print(ds)
 # DatasetDict with splits: react, hooks, nextjs, server_actions, api_routes,
 #                          form, tailwind, typescript, auth, payments,
-#                          database, utils
-# (middleware category is reserved for v0.2; not loadable until populated)
+#                          database, utils, middleware, testing, performance,
+#                          typescript_advanced
 
 # Load a single category:
 react_tasks = load_dataset("baablabs/nextbench", split="react")
@@ -186,7 +187,7 @@ server_actions = load_dataset("baablabs/nextbench", split="server_actions")
   "file_path": "components/CopyButton.tsx",
   "prompt": "'use client'\nimport { useState } from 'react'\n\nexport default function CopyButton({ text }: { text: string }) {",
   "context": {
-    "prefix": "<same as prompt for v0.1>",
+    "prefix": "<same as prompt for completion tasks>",
     "cursor_position": 142,
     "suffix": ""
   },
@@ -204,36 +205,39 @@ server_actions = load_dataset("baablabs/nextbench", split="server_actions")
   "metadata": {
     "source": "baab-battle-v1",
     "schema_version": "1.0",
-    "benchmark_version": "0.1",
+    "benchmark_version": "0.2",
     "license": "MIT"
   }
 }
 ```
 
-**Schema future-proofing:** `checks.execution` (TypeScript compile + light runtime tests) and `checks.judge` (optional rubric) slots exist now but are `null` in v0.1. They'll be populated in v0.2 / v1.0 without breaking the schema.
+**Schema future-proofing:** `checks.execution` (TypeScript compile + light runtime tests) and `checks.judge` (optional rubric) slots exist now but are `null` in v0.2. They'll be populated in v1.0 without breaking the schema.
 
-**Task types:** `completion` (v0.1, autocomplete from a prefix) → future `infill`, `instruction`, `agent`. One benchmark, multiple task types.
+**Task types:** `completion` (v0.2, autocomplete from a prefix) → future `infill`, `instruction`, `agent`. One benchmark, multiple task types.
 
 ---
 
-## Categories (v0.1)
+## Categories (v0.2)
 
 | Category | Tasks | Description |
 |---|---:|---|
-| `react` | 39 | Client components, hooks usage, event handlers, common UI primitives |
-| `hooks` | 27 | Custom hooks (`useDebounce`, `useLocalStorage`, `useClickOutside`, …) |
-| `nextjs` | 48 | App Router primitives — pages, layouts, metadata, error/loading, OG images, sitemap, robots |
-| `server-actions` | 38 | Server actions for CRUD, Zod-validated mutations, FormData handling, transactions |
-| `api-routes` | 36 | Route handlers — GET/POST/PATCH/DELETE, auth-gated, webhooks, rate limiting |
-| `form` | 19 | Controlled forms, React Hook Form integration, useFormStatus patterns |
-| `tailwind` | 26 | UI sections — heroes, pricing cards, navbars, dashboards, feature grids |
-| `typescript` | 27 | Utility types, type guards, branded ids, discriminated unions, inference helpers |
-| `auth` | 21 | NextAuth v5 — providers, callbacks, middleware, protected pages, role guards |
-| `payments` | 19 | Stripe, Razorpay, Paddle, Lemon Squeezy, Dodo, Cashfree |
-| `database` | 28 | Prisma & Drizzle — schemas, queries, relations, transactions, pagination |
-| `utils` | 27 | Pure helpers — `cn`, `debounce`, `formatCurrency`, `slugify`, `safeJsonParse`, … |
-| `middleware` | 0 | Empty in v0.1; populated during expansion |
-| **Total** | **355** | |
+| `react` | 57 | Client components, hooks usage, event handlers, compound components, portals, error boundaries |
+| `server-actions` | 52 | Server actions for CRUD, Zod-validated mutations, FormData handling, transactions, idempotency |
+| `nextjs` | 52 | App Router primitives — pages, layouts, metadata, error/loading, OG images, fetch revalidation, intercepting routes |
+| `api-routes` | 37 | Route handlers — auth-gated, webhooks, rate limiting, ETag, CORS, OpenAPI, batch processors |
+| `database` | 32 | Prisma & Drizzle — schemas, queries, relations, transactions, soft-delete, optimistic locking, aggregations |
+| `auth` | 29 | NextAuth v5 — providers, callbacks, middleware, protected pages, role guards, OAuth callback, magic links |
+| `tailwind` | 25 | UI sections — heroes, pricing cards, navbars, dashboards, feature grids |
+| `hooks` | 25 | Custom hooks (`useDebounce`, `useLocalStorage`, `useClickOutside`, …) |
+| `form` | 23 | Controlled forms, React Hook Form integration, useFormStatus, multi-step, file input |
+| `typescript` | 23 | Utility types, type guards, branded ids, discriminated unions, inference helpers |
+| `utils` | 22 | Pure helpers — `cn`, `debounce`, `formatCurrency`, `slugify`, `safeJsonParse`, … |
+| `middleware` | 20 | Edge runtime — geo-block, A/B test, basic auth, security headers, redirects, observability |
+| `payments` | 18 | Stripe, Razorpay, Paddle, Lemon Squeezy, Dodo, Cashfree |
+| `testing` | 12 | Vitest, Playwright, React Testing Library, MSW, snapshot patterns |
+| `performance` | 9 | next/image, next/font, dynamic imports, virtualization, memo/callback |
+| `typescript-advanced` | 7 | Conditional types, mapped types, template literals, infer keyword, satisfies operator |
+| **Total** | **443** | |
 
 ---
 
@@ -248,9 +252,9 @@ Each task is scored 0-4 on four binary signals against `checks.static`:
 | `regex_hit` | Every `must_match_regex` pattern matches the output (case-insensitive, multiline). |
 | `length_ok` | Output line count is within `[min_lines, max_lines]`. For tight bounds (`max_lines ≤ 6`) both bounds are enforced; otherwise only the lower bound. |
 
-Aggregate score = sum across all tasks / `(4 × N_tasks)`. NextBench v0.1 max = `4 × 355 = 1420`.
+Aggregate score = sum across all tasks / `(4 × N_tasks)`. NextBench v0.2 max = `4 × 443 = 1772`.
 
-`checks.execution` and `checks.judge` slots are reserved for future versions; v0.1 grader ignores them.
+`checks.execution` and `checks.judge` slots are reserved for future versions; v0.2 grader ignores them.
 
 ---
 
@@ -272,8 +276,8 @@ Aggregate score = sum across all tasks / `(4 × N_tasks)`. NextBench v0.1 max = 
 
 | Version | Tasks | Status |
 |---|---:|---|
-| v0.1 | 355 | Current — completion-only |
-| v0.2 (planned) | ~1000 | Expansion focused on coverage (data tables, charts, file upload, animations, real-time, i18n, search, RAG). |
+| v0.1 | 355 | Released 2026-05. Completion-only. Superseded by v0.2. |
+| v0.2 | 443 | **Current.** +88 tasks, +3 categories (`testing`, `performance`, `typescript-advanced`), tighter checks, audited for brittleness and saturation. |
 | v1.0 (planned) | ~2500 | Multi-task-type — adds infill and instruction tasks. Optional `execution` checks for a subset (TypeScript compile + light runtime). |
 
 Schema is independent of benchmark version: `schema_version` only bumps if the per-record structure changes. `benchmark_version` bumps with each task-set release.
@@ -302,6 +306,7 @@ Schema is independent of benchmark version: `schema_version` only bumps if the p
 
 ## Related
 
-- **BaaB Next** — the model family this benchmark grew out of. Current best: `baab-next-1b-pretrain-4k`.
+- **BaaB Next** — the model family this benchmark grew out of. Current best Next.js coding model under 10B parameters: `baab-next-1b-pretrain-2k` (84.2% on v0.2).
+- **BaaB Labs site** — [baablabs.com](https://baablabs.com) (model family page, leaderboard, origin story).
 - **BaaB Playground** — interactive completion playground (Phase 2).
 - **BaaB for VS Code** — editor extension (Phase 3).

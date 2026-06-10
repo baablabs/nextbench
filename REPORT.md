@@ -1,41 +1,50 @@
-# NextBench v0.1 — Benchmark Report
+# NextBench v0.2 — Benchmark Report
 
 **The benchmark for modern Next.js code generation and completion.**
 
 NextBench measures how well language models complete real-world Next.js / React / TypeScript code. Every task is an autocomplete prompt — a partial file with the cursor at the end — graded against deterministic checks. No LLM judge, no subjectivity, full reproducibility.
 
-- **355 tasks** across 13 categories
+- **443 tasks** across 16 categories
 - **12-model benchmark panel** spanning 1.3B to 30B parameters
-- **Deterministic scoring** — 4 binary signals per task, 1420 max points
+- **Deterministic scoring** — 4 binary signals per task, 1772 max points
 - **MIT licensed** — tasks, tooling, and outputs
 
 Maintained by [BaaB Labs](https://baablabs.com). Benchmark-first: contributions from any lab welcome.
 
 ---
 
+## What changed in v0.2
+
+v0.2 extends the v0.1 corpus from 355 to 443 tasks, retires 84 tasks the v0.1 panel had saturated or that were near-duplicates (77 in the initial dedup, 7 in a post-audit pass), and adds three new categories: `testing`, `performance`, and `typescript-advanced`. A post-eval universal-failure scan fixed 41 panel-impossible tasks where checks expected arbitrary variable names or second-function content; a follow-up audit fixed a class of 14 tasks where tight `max_lines` was penalising strong models that complete the function then keep generating. See [LEADERBOARD.md](LEADERBOARD.md) for the v0.1 → v0.2 movement table.
+
+---
+
 ## Headline ranking
 
-12 models evaluated under matched settings (`temperature=0.0`, `top_k=1`, `max_tokens=500`, `num_ctx=4096`, raw completion — no chat template).
+12 models evaluated under matched settings (`temperature=0.0`, `top_k=1`, `max_tokens=500`, `num_ctx=4096`, raw completion — no chat template). Fresh full eval against the v0.2 corpus (443 tasks).
 
 | Rank | Model | Params | Score | % |
 |---:|---|---:|---:|---:|
-| 1 | qwen3-coder:30b (MoE) | 30B | 1322 / 1420 | **93.1%** |
-| **2** | **BaaB Next 1B (Pretrain 2K)** | **1B** | **1298 / 1420** | **91.4%** |
-| 3 | BaaB Next 1B (Pretrain 4K) | 1B | 1280 / 1420 | 90.1% |
-| 4 | codestral:22b | 22B | 1278 / 1420 | 90.0% |
-| 5 | qwen2.5-coder:7b | 7B | 1267 / 1420 | 89.2% |
-| 6 | qwen2.5-coder:3b | 3B | 1257 / 1420 | 88.5% |
-| 7 | codegemma:2b | 2B | 1213 / 1420 | 85.4% |
-| 8 | qwen2.5-coder:1.5b | 1.5B | 1212 / 1420 | 85.4% |
-| 9 | starcoder2:3b | 3B | 1190 / 1420 | 83.8% |
+| 1 | qwen3-coder:30b (MoE) | 30B | 1571 / 1772 | **88.7%** |
+| 2 | codestral:22b | 22B | 1494 / 1772 | 84.3% |
+| **3** | **BaaB Next 1B (Pretrain 2K)** | **1B** | **1492 / 1772** | **84.2%** |
+| 4 | qwen2.5-coder:7b | 7B | 1490 / 1772 | 84.1% |
+| 5 | BaaB Next 1B (Pretrain 4K) | 1B | 1472 / 1772 | 83.1% |
+| 6 | qwen2.5-coder:3b | 3B | 1463 / 1772 | 82.6% |
+| 7 | codegemma:2b | 2B | 1398 / 1772 | 78.9% |
+| 8 | qwen2.5-coder:1.5b | 1.5B | 1383 / 1772 | 78.1% |
+| 9 | granite-code:8b | 8B | 1341 / 1772 | 75.7% |
+| 10 | starcoder2:3b | 3B | 1327 / 1772 | 74.9% |
+| 11 | granite-code:3b | 3B | 1303 / 1772 | 73.5% |
+| 12 | deepseek-coder:1.3b | 1.3B | 1140 / 1772 | 64.3% |
 | 10 | granite-code:8b | 8B | 1180 / 1420 | 83.1% |
 | 11 | granite-code:3b | 3B | 1170 / 1420 | 82.4% |
 | 12 | deepseek-coder:1.3b | 1.3B | 1036 / 1420 | 73.0% |
 
 **Observations:**
 
-- A 1B specialist (BaaB Next, trained from scratch on a Next.js corpus) ranks #2 — beating every production code model under 30B parameters.
-- The 30B model holds a 1.7pp lead over the 1B specialist. The 22B general code model trails the 1B specialist by 1.4pp.
+- A 1B specialist (BaaB Next, trained from scratch on a Next.js corpus) sits inside the top-3 cluster, statistically indistinguishable from a 22B general code model and a 7B specialist — all within 0.22pp at the 84% mark.
+- The 30B MoE leader holds a 4.4pp lead over the top-3 cluster. Inside the cluster the rank ordering is noise — 0.11pp separates rank 2 (codestral 22B) from rank 3 (BaaB Next 1B).
 - Under-3B general code models cluster at 73–85%. The threshold for "fluent in modern Next.js completion" sits around 85% on this suite.
 
 ---
