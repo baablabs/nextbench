@@ -1,0 +1,5937 @@
+{
+  "discrimination": [
+    {
+      "task_id": "react.copy.001",
+      "category": "react",
+      "subcategory": "copy",
+      "pass_rate": "11/12",
+      "issue": "near-saturated",
+      "n_passes": 11
+    },
+    {
+      "task_id": "react.copy.004",
+      "category": "react",
+      "subcategory": "copy",
+      "pass_rate": "11/12",
+      "issue": "near-saturated",
+      "n_passes": 11
+    },
+    {
+      "task_id": "react.counter.009",
+      "category": "react",
+      "subcategory": "counter",
+      "pass_rate": "11/12",
+      "issue": "near-saturated",
+      "n_passes": 11
+    },
+    {
+      "task_id": "react.card.015",
+      "category": "react",
+      "subcategory": "card",
+      "pass_rate": "11/12",
+      "issue": "near-saturated",
+      "n_passes": 11
+    },
+    {
+      "task_id": "react.pagination.026",
+      "category": "react",
+      "subcategory": "pagination",
+      "pass_rate": "11/12",
+      "issue": "near-saturated",
+      "n_passes": 11
+    },
+    {
+      "task_id": "hooks.useDebounce.002",
+      "category": "hooks",
+      "subcategory": "useDebounce",
+      "pass_rate": "11/12",
+      "issue": "near-saturated",
+      "n_passes": 11
+    },
+    {
+      "task_id": "hooks.useLocalStorage.003",
+      "category": "hooks",
+      "subcategory": "useLocalStorage",
+      "pass_rate": "11/12",
+      "issue": "near-saturated",
+      "n_passes": 11
+    },
+    {
+      "task_id": "hooks.useInterval.006",
+      "category": "hooks",
+      "subcategory": "useInterval",
+      "pass_rate": "11/12",
+      "issue": "near-saturated",
+      "n_passes": 11
+    },
+    {
+      "task_id": "hooks.usePrevious.008",
+      "category": "hooks",
+      "subcategory": "usePrevious",
+      "pass_rate": "11/12",
+      "issue": "near-saturated",
+      "n_passes": 11
+    },
+    {
+      "task_id": "hooks.useWindowSize.011",
+      "category": "hooks",
+      "subcategory": "useWindowSize",
+      "pass_rate": "11/12",
+      "issue": "near-saturated",
+      "n_passes": 11
+    },
+    {
+      "task_id": "hooks.useKeyPress.012",
+      "category": "hooks",
+      "subcategory": "useKeyPress",
+      "pass_rate": "11/12",
+      "issue": "near-saturated",
+      "n_passes": 11
+    },
+    {
+      "task_id": "nextjs.loading.016",
+      "category": "nextjs",
+      "subcategory": "loading",
+      "pass_rate": "1/12",
+      "issue": "near-ceiling",
+      "n_passes": 1
+    },
+    {
+      "task_id": "nextjs.loading.017",
+      "category": "nextjs",
+      "subcategory": "loading",
+      "pass_rate": "1/12",
+      "issue": "near-ceiling",
+      "n_passes": 1
+    },
+    {
+      "task_id": "nextjs.loading.019",
+      "category": "nextjs",
+      "subcategory": "loading",
+      "pass_rate": "1/12",
+      "issue": "near-ceiling",
+      "n_passes": 1
+    },
+    {
+      "task_id": "nextjs.search_params.034",
+      "category": "nextjs",
+      "subcategory": "search_params",
+      "pass_rate": "11/12",
+      "issue": "near-saturated",
+      "n_passes": 11
+    },
+    {
+      "task_id": "nextjs.search_params.035",
+      "category": "nextjs",
+      "subcategory": "search_params",
+      "pass_rate": "11/12",
+      "issue": "near-saturated",
+      "n_passes": 11
+    },
+    {
+      "task_id": "nextjs.og_image.042",
+      "category": "nextjs",
+      "subcategory": "og_image",
+      "pass_rate": "0/12",
+      "issue": "ceiling",
+      "n_passes": 0
+    },
+    {
+      "task_id": "nextjs.og_image.043",
+      "category": "nextjs",
+      "subcategory": "og_image",
+      "pass_rate": "0/12",
+      "issue": "ceiling",
+      "n_passes": 0
+    },
+    {
+      "task_id": "nextjs.og_image.044",
+      "category": "nextjs",
+      "subcategory": "og_image",
+      "pass_rate": "1/12",
+      "issue": "near-ceiling",
+      "n_passes": 1
+    },
+    {
+      "task_id": "server-actions.archive.025",
+      "category": "server-actions",
+      "subcategory": "archive",
+      "pass_rate": "1/12",
+      "issue": "near-ceiling",
+      "n_passes": 1
+    },
+    {
+      "task_id": "server-actions.archive.026",
+      "category": "server-actions",
+      "subcategory": "archive",
+      "pass_rate": "1/12",
+      "issue": "near-ceiling",
+      "n_passes": 1
+    },
+    {
+      "task_id": "server-actions.archive.027",
+      "category": "server-actions",
+      "subcategory": "archive",
+      "pass_rate": "1/12",
+      "issue": "near-ceiling",
+      "n_passes": 1
+    },
+    {
+      "task_id": "server-actions.archive.029",
+      "category": "server-actions",
+      "subcategory": "archive",
+      "pass_rate": "1/12",
+      "issue": "near-ceiling",
+      "n_passes": 1
+    },
+    {
+      "task_id": "server-actions.transaction.035",
+      "category": "server-actions",
+      "subcategory": "transaction",
+      "pass_rate": "0/12",
+      "issue": "ceiling",
+      "n_passes": 0
+    },
+    {
+      "task_id": "server-actions.transaction.036",
+      "category": "server-actions",
+      "subcategory": "transaction",
+      "pass_rate": "1/12",
+      "issue": "near-ceiling",
+      "n_passes": 1
+    },
+    {
+      "task_id": "server-actions.transaction.037",
+      "category": "server-actions",
+      "subcategory": "transaction",
+      "pass_rate": "1/12",
+      "issue": "near-ceiling",
+      "n_passes": 1
+    },
+    {
+      "task_id": "server-actions.transaction.038",
+      "category": "server-actions",
+      "subcategory": "transaction",
+      "pass_rate": "1/12",
+      "issue": "near-ceiling",
+      "n_passes": 1
+    },
+    {
+      "task_id": "tailwind.hero.002",
+      "category": "tailwind",
+      "subcategory": "hero",
+      "pass_rate": "1/12",
+      "issue": "near-ceiling",
+      "n_passes": 1
+    },
+    {
+      "task_id": "tailwind.hero.003",
+      "category": "tailwind",
+      "subcategory": "hero",
+      "pass_rate": "1/12",
+      "issue": "near-ceiling",
+      "n_passes": 1
+    },
+    {
+      "task_id": "tailwind.hero.005",
+      "category": "tailwind",
+      "subcategory": "hero",
+      "pass_rate": "1/12",
+      "issue": "near-ceiling",
+      "n_passes": 1
+    },
+    {
+      "task_id": "tailwind.footer_grid.007",
+      "category": "tailwind",
+      "subcategory": "footer_grid",
+      "pass_rate": "1/12",
+      "issue": "near-ceiling",
+      "n_passes": 1
+    },
+    {
+      "task_id": "tailwind.testimonial.017",
+      "category": "tailwind",
+      "subcategory": "testimonial",
+      "pass_rate": "11/12",
+      "issue": "near-saturated",
+      "n_passes": 11
+    },
+    {
+      "task_id": "typescript.interface.003",
+      "category": "typescript",
+      "subcategory": "interface",
+      "pass_rate": "11/12",
+      "issue": "near-saturated",
+      "n_passes": 11
+    },
+    {
+      "task_id": "typescript.interface.006",
+      "category": "typescript",
+      "subcategory": "interface",
+      "pass_rate": "11/12",
+      "issue": "near-saturated",
+      "n_passes": 11
+    },
+    {
+      "task_id": "typescript.type_guard.010",
+      "category": "typescript",
+      "subcategory": "type_guard",
+      "pass_rate": "1/12",
+      "issue": "near-ceiling",
+      "n_passes": 1
+    },
+    {
+      "task_id": "typescript.type_guard.011",
+      "category": "typescript",
+      "subcategory": "type_guard",
+      "pass_rate": "1/12",
+      "issue": "near-ceiling",
+      "n_passes": 1
+    },
+    {
+      "task_id": "typescript.deep_partial.014",
+      "category": "typescript",
+      "subcategory": "deep_partial",
+      "pass_rate": "1/12",
+      "issue": "near-ceiling",
+      "n_passes": 1
+    },
+    {
+      "task_id": "typescript.non_nullable.015",
+      "category": "typescript",
+      "subcategory": "non_nullable",
+      "pass_rate": "0/12",
+      "issue": "ceiling",
+      "n_passes": 0
+    },
+    {
+      "task_id": "typescript.readonly_partial.016",
+      "category": "typescript",
+      "subcategory": "readonly_partial",
+      "pass_rate": "1/12",
+      "issue": "near-ceiling",
+      "n_passes": 1
+    },
+    {
+      "task_id": "payments.stripe_subscription.001",
+      "category": "payments",
+      "subcategory": "stripe_subscription",
+      "pass_rate": "1/12",
+      "issue": "near-ceiling",
+      "n_passes": 1
+    },
+    {
+      "task_id": "payments.stripe_webhook.005",
+      "category": "payments",
+      "subcategory": "stripe_webhook",
+      "pass_rate": "11/12",
+      "issue": "near-saturated",
+      "n_passes": 11
+    },
+    {
+      "task_id": "database.prisma_relations.014",
+      "category": "database",
+      "subcategory": "prisma_relations",
+      "pass_rate": "1/12",
+      "issue": "near-ceiling",
+      "n_passes": 1
+    },
+    {
+      "task_id": "utils.unique.010",
+      "category": "utils",
+      "subcategory": "unique",
+      "pass_rate": "0/12",
+      "issue": "ceiling",
+      "n_passes": 0
+    },
+    {
+      "task_id": "utils.is_browser.014",
+      "category": "utils",
+      "subcategory": "is_browser",
+      "pass_rate": "1/12",
+      "issue": "near-ceiling",
+      "n_passes": 1
+    },
+    {
+      "task_id": "hooks.useReducerForm.024",
+      "category": "hooks",
+      "subcategory": "useReducerForm",
+      "pass_rate": "11/12",
+      "issue": "near-saturated",
+      "n_passes": 11
+    },
+    {
+      "task_id": "tailwind.cta_section.020",
+      "category": "tailwind",
+      "subcategory": "cta_section",
+      "pass_rate": "0/12",
+      "issue": "ceiling",
+      "n_passes": 0
+    },
+    {
+      "task_id": "tailwind.settings_layout.024",
+      "category": "tailwind",
+      "subcategory": "settings_layout",
+      "pass_rate": "0/12",
+      "issue": "ceiling",
+      "n_passes": 0
+    },
+    {
+      "task_id": "typescript.function_args.025",
+      "category": "typescript",
+      "subcategory": "function_args",
+      "pass_rate": "0/12",
+      "issue": "ceiling",
+      "n_passes": 0
+    },
+    {
+      "task_id": "typescript.branded_id.027",
+      "category": "typescript",
+      "subcategory": "branded_id",
+      "pass_rate": "0/12",
+      "issue": "ceiling",
+      "n_passes": 0
+    },
+    {
+      "task_id": "auth.jwt_callback.018",
+      "category": "auth",
+      "subcategory": "jwt_callback",
+      "pass_rate": "11/12",
+      "issue": "near-saturated",
+      "n_passes": 11
+    },
+    {
+      "task_id": "auth.magic_link_provider.020",
+      "category": "auth",
+      "subcategory": "magic_link_provider",
+      "pass_rate": "0/12",
+      "issue": "ceiling",
+      "n_passes": 0
+    },
+    {
+      "task_id": "payments.dodo_checkout.015",
+      "category": "payments",
+      "subcategory": "dodo_checkout",
+      "pass_rate": "1/12",
+      "issue": "near-ceiling",
+      "n_passes": 1
+    },
+    {
+      "task_id": "utils.format_currency.015",
+      "category": "utils",
+      "subcategory": "format_currency",
+      "pass_rate": "11/12",
+      "issue": "near-saturated",
+      "n_passes": 11
+    },
+    {
+      "task_id": "utils.format_date.016",
+      "category": "utils",
+      "subcategory": "format_date",
+      "pass_rate": "1/12",
+      "issue": "near-ceiling",
+      "n_passes": 1
+    },
+    {
+      "task_id": "utils.is_valid_email.017",
+      "category": "utils",
+      "subcategory": "is_valid_email",
+      "pass_rate": "11/12",
+      "issue": "near-saturated",
+      "n_passes": 11
+    },
+    {
+      "task_id": "utils.parse_query_string.021",
+      "category": "utils",
+      "subcategory": "parse_query_string",
+      "pass_rate": "1/12",
+      "issue": "near-ceiling",
+      "n_passes": 1
+    },
+    {
+      "task_id": "utils.build_query_string.022",
+      "category": "utils",
+      "subcategory": "build_query_string",
+      "pass_rate": "1/12",
+      "issue": "near-ceiling",
+      "n_passes": 1
+    },
+    {
+      "task_id": "database.drizzle_relations.024",
+      "category": "database",
+      "subcategory": "drizzle_relations",
+      "pass_rate": "1/12",
+      "issue": "near-ceiling",
+      "n_passes": 1
+    },
+    {
+      "task_id": "nextjs.parallel_routes.045",
+      "category": "nextjs",
+      "subcategory": "parallel_routes",
+      "pass_rate": "11/12",
+      "issue": "near-saturated",
+      "n_passes": 11
+    },
+    {
+      "task_id": "api-routes.file_upload_formdata.001",
+      "category": "api-routes",
+      "subcategory": "file_upload_formdata",
+      "pass_rate": "0/12",
+      "issue": "ceiling",
+      "n_passes": 0
+    },
+    {
+      "task_id": "api-routes.etag_conditional.001",
+      "category": "api-routes",
+      "subcategory": "etag_conditional",
+      "pass_rate": "1/12",
+      "issue": "near-ceiling",
+      "n_passes": 1
+    },
+    {
+      "task_id": "api-routes.openapi_export.001",
+      "category": "api-routes",
+      "subcategory": "openapi_export",
+      "pass_rate": "0/12",
+      "issue": "ceiling",
+      "n_passes": 0
+    },
+    {
+      "task_id": "api-routes.health_check.001",
+      "category": "api-routes",
+      "subcategory": "health_check",
+      "pass_rate": "1/12",
+      "issue": "near-ceiling",
+      "n_passes": 1
+    },
+    {
+      "task_id": "api-routes.pagination_link_header.001",
+      "category": "api-routes",
+      "subcategory": "pagination_link_header",
+      "pass_rate": "0/12",
+      "issue": "ceiling",
+      "n_passes": 0
+    },
+    {
+      "task_id": "api-routes.json_schema_validation.001",
+      "category": "api-routes",
+      "subcategory": "json_schema_validation",
+      "pass_rate": "1/12",
+      "issue": "near-ceiling",
+      "n_passes": 1
+    },
+    {
+      "task_id": "api-routes.content_negotiation.001",
+      "category": "api-routes",
+      "subcategory": "content_negotiation",
+      "pass_rate": "1/12",
+      "issue": "near-ceiling",
+      "n_passes": 1
+    },
+    {
+      "task_id": "api-routes.cron_signature.001",
+      "category": "api-routes",
+      "subcategory": "cron_signature",
+      "pass_rate": "12/12",
+      "issue": "saturated",
+      "n_passes": 12
+    },
+    {
+      "task_id": "api-routes.batch_processor.001",
+      "category": "api-routes",
+      "subcategory": "batch_processor",
+      "pass_rate": "0/12",
+      "issue": "ceiling",
+      "n_passes": 0
+    },
+    {
+      "task_id": "api-routes.download_csv.001",
+      "category": "api-routes",
+      "subcategory": "download_csv",
+      "pass_rate": "0/12",
+      "issue": "ceiling",
+      "n_passes": 0
+    },
+    {
+      "task_id": "auth.oauth_callback.001",
+      "category": "auth",
+      "subcategory": "oauth_callback",
+      "pass_rate": "1/12",
+      "issue": "near-ceiling",
+      "n_passes": 1
+    },
+    {
+      "task_id": "auth.password_reset_token.001",
+      "category": "auth",
+      "subcategory": "password_reset_token",
+      "pass_rate": "1/12",
+      "issue": "near-ceiling",
+      "n_passes": 1
+    },
+    {
+      "task_id": "auth.email_verification.001",
+      "category": "auth",
+      "subcategory": "email_verification",
+      "pass_rate": "0/12",
+      "issue": "ceiling",
+      "n_passes": 0
+    },
+    {
+      "task_id": "auth.permission_helper.001",
+      "category": "auth",
+      "subcategory": "permission_helper",
+      "pass_rate": "0/12",
+      "issue": "ceiling",
+      "n_passes": 0
+    },
+    {
+      "task_id": "auth.jwt_verify.001",
+      "category": "auth",
+      "subcategory": "jwt_verify",
+      "pass_rate": "0/12",
+      "issue": "ceiling",
+      "n_passes": 0
+    },
+    {
+      "task_id": "auth.refresh_token_rotate.001",
+      "category": "auth",
+      "subcategory": "refresh_token_rotate",
+      "pass_rate": "0/12",
+      "issue": "ceiling",
+      "n_passes": 0
+    },
+    {
+      "task_id": "auth.signout_destroy_session.001",
+      "category": "auth",
+      "subcategory": "signout_destroy_session",
+      "pass_rate": "0/12",
+      "issue": "ceiling",
+      "n_passes": 0
+    },
+    {
+      "task_id": "database.prisma_nested_create.001",
+      "category": "database",
+      "subcategory": "prisma_nested_create",
+      "pass_rate": "1/12",
+      "issue": "near-ceiling",
+      "n_passes": 1
+    },
+    {
+      "task_id": "database.connection_pool_singleton.001",
+      "category": "database",
+      "subcategory": "connection_pool_singleton",
+      "pass_rate": "1/12",
+      "issue": "near-ceiling",
+      "n_passes": 1
+    },
+    {
+      "task_id": "database.soft_delete.001",
+      "category": "database",
+      "subcategory": "soft_delete",
+      "pass_rate": "0/12",
+      "issue": "ceiling",
+      "n_passes": 0
+    },
+    {
+      "task_id": "database.optimistic_locking.001",
+      "category": "database",
+      "subcategory": "optimistic_locking",
+      "pass_rate": "0/12",
+      "issue": "ceiling",
+      "n_passes": 0
+    },
+    {
+      "task_id": "database.row_level_filter.001",
+      "category": "database",
+      "subcategory": "row_level_filter",
+      "pass_rate": "0/12",
+      "issue": "ceiling",
+      "n_passes": 0
+    },
+    {
+      "task_id": "database.drizzle_join.001",
+      "category": "database",
+      "subcategory": "drizzle_join",
+      "pass_rate": "0/12",
+      "issue": "ceiling",
+      "n_passes": 0
+    },
+    {
+      "task_id": "database.prisma_extension.001",
+      "category": "database",
+      "subcategory": "prisma_extension",
+      "pass_rate": "1/12",
+      "issue": "near-ceiling",
+      "n_passes": 1
+    },
+    {
+      "task_id": "form.rhf_zod_resolver.001",
+      "category": "form",
+      "subcategory": "rhf_zod_resolver",
+      "pass_rate": "12/12",
+      "issue": "saturated",
+      "n_passes": 12
+    },
+    {
+      "task_id": "form.rhf_watch.001",
+      "category": "form",
+      "subcategory": "rhf_watch",
+      "pass_rate": "1/12",
+      "issue": "near-ceiling",
+      "n_passes": 1
+    },
+    {
+      "task_id": "form.html5_validation.001",
+      "category": "form",
+      "subcategory": "html5_validation",
+      "pass_rate": "1/12",
+      "issue": "near-ceiling",
+      "n_passes": 1
+    },
+    {
+      "task_id": "middleware.rate_limit_ip.001",
+      "category": "middleware",
+      "subcategory": "rate_limit_ip",
+      "pass_rate": "1/12",
+      "issue": "near-ceiling",
+      "n_passes": 1
+    },
+    {
+      "task_id": "middleware.maintenance_mode.001",
+      "category": "middleware",
+      "subcategory": "maintenance_mode",
+      "pass_rate": "0/12",
+      "issue": "ceiling",
+      "n_passes": 0
+    },
+    {
+      "task_id": "middleware.geoblock_country.001",
+      "category": "middleware",
+      "subcategory": "geoblock_country",
+      "pass_rate": "0/12",
+      "issue": "ceiling",
+      "n_passes": 0
+    },
+    {
+      "task_id": "middleware.observability_log.001",
+      "category": "middleware",
+      "subcategory": "observability_log",
+      "pass_rate": "1/12",
+      "issue": "near-ceiling",
+      "n_passes": 1
+    },
+    {
+      "task_id": "middleware.cache_control.001",
+      "category": "middleware",
+      "subcategory": "cache_control",
+      "pass_rate": "0/12",
+      "issue": "ceiling",
+      "n_passes": 0
+    },
+    {
+      "task_id": "middleware.forwarded_ip.001",
+      "category": "middleware",
+      "subcategory": "forwarded_ip",
+      "pass_rate": "1/12",
+      "issue": "near-ceiling",
+      "n_passes": 1
+    },
+    {
+      "task_id": "nextjs.react_cache.001",
+      "category": "nextjs",
+      "subcategory": "react_cache",
+      "pass_rate": "11/12",
+      "issue": "near-saturated",
+      "n_passes": 11
+    },
+    {
+      "task_id": "nextjs.error_boundary_recovery.001",
+      "category": "nextjs",
+      "subcategory": "error_boundary_recovery",
+      "pass_rate": "1/12",
+      "issue": "near-ceiling",
+      "n_passes": 1
+    },
+    {
+      "task_id": "nextjs.sse_response.001",
+      "category": "nextjs",
+      "subcategory": "sse_response",
+      "pass_rate": "0/12",
+      "issue": "ceiling",
+      "n_passes": 0
+    },
+    {
+      "task_id": "nextjs.catch_all_route.001",
+      "category": "nextjs",
+      "subcategory": "catch_all_route",
+      "pass_rate": "1/12",
+      "issue": "near-ceiling",
+      "n_passes": 1
+    },
+    {
+      "task_id": "nextjs.optional_catch_all.001",
+      "category": "nextjs",
+      "subcategory": "optional_catch_all",
+      "pass_rate": "1/12",
+      "issue": "near-ceiling",
+      "n_passes": 1
+    },
+    {
+      "task_id": "nextjs.fetch_revalidate_tag.001",
+      "category": "nextjs",
+      "subcategory": "fetch_revalidate_tag",
+      "pass_rate": "0/12",
+      "issue": "ceiling",
+      "n_passes": 0
+    },
+    {
+      "task_id": "nextjs.middleware_matcher_advanced.001",
+      "category": "nextjs",
+      "subcategory": "middleware_matcher_advanced",
+      "pass_rate": "1/12",
+      "issue": "near-ceiling",
+      "n_passes": 1
+    },
+    {
+      "task_id": "nextjs.rewrites_config.001",
+      "category": "nextjs",
+      "subcategory": "rewrites_config",
+      "pass_rate": "1/12",
+      "issue": "near-ceiling",
+      "n_passes": 1
+    },
+    {
+      "task_id": "performance.use_memo.001",
+      "category": "performance",
+      "subcategory": "use_memo",
+      "pass_rate": "11/12",
+      "issue": "near-saturated",
+      "n_passes": 11
+    },
+    {
+      "task_id": "performance.use_callback.001",
+      "category": "performance",
+      "subcategory": "use_callback",
+      "pass_rate": "0/12",
+      "issue": "ceiling",
+      "n_passes": 0
+    },
+    {
+      "task_id": "performance.lazy_suspense.001",
+      "category": "performance",
+      "subcategory": "lazy_suspense",
+      "pass_rate": "12/12",
+      "issue": "saturated",
+      "n_passes": 12
+    },
+    {
+      "task_id": "performance.image_priority_lcp.001",
+      "category": "performance",
+      "subcategory": "image_priority_lcp",
+      "pass_rate": "0/12",
+      "issue": "ceiling",
+      "n_passes": 0
+    },
+    {
+      "task_id": "performance.next_font_subset.001",
+      "category": "performance",
+      "subcategory": "next_font_subset",
+      "pass_rate": "0/12",
+      "issue": "ceiling",
+      "n_passes": 0
+    },
+    {
+      "task_id": "react.use_context_typed.001",
+      "category": "react",
+      "subcategory": "use_context_typed",
+      "pass_rate": "11/12",
+      "issue": "near-saturated",
+      "n_passes": 11
+    },
+    {
+      "task_id": "react.click_outside_hook.001",
+      "category": "react",
+      "subcategory": "click_outside_hook",
+      "pass_rate": "11/12",
+      "issue": "near-saturated",
+      "n_passes": 11
+    },
+    {
+      "task_id": "react.use_reducer.001",
+      "category": "react",
+      "subcategory": "use_reducer",
+      "pass_rate": "11/12",
+      "issue": "near-saturated",
+      "n_passes": 11
+    },
+    {
+      "task_id": "react.use_layout_effect.001",
+      "category": "react",
+      "subcategory": "use_layout_effect",
+      "pass_rate": "1/12",
+      "issue": "near-ceiling",
+      "n_passes": 1
+    },
+    {
+      "task_id": "react.children_map.001",
+      "category": "react",
+      "subcategory": "children_map",
+      "pass_rate": "1/12",
+      "issue": "near-ceiling",
+      "n_passes": 1
+    },
+    {
+      "task_id": "react.controlled_select.001",
+      "category": "react",
+      "subcategory": "controlled_select",
+      "pass_rate": "12/12",
+      "issue": "saturated",
+      "n_passes": 12
+    },
+    {
+      "task_id": "react.use_sync_external_store.001",
+      "category": "react",
+      "subcategory": "use_sync_external_store",
+      "pass_rate": "0/12",
+      "issue": "ceiling",
+      "n_passes": 0
+    },
+    {
+      "task_id": "server-actions.audit_log.001",
+      "category": "server-actions",
+      "subcategory": "audit_log",
+      "pass_rate": "12/12",
+      "issue": "saturated",
+      "n_passes": 12
+    },
+    {
+      "task_id": "server-actions.idempotency_key.001",
+      "category": "server-actions",
+      "subcategory": "idempotency_key",
+      "pass_rate": "0/12",
+      "issue": "ceiling",
+      "n_passes": 0
+    },
+    {
+      "task_id": "server-actions.rate_limited.001",
+      "category": "server-actions",
+      "subcategory": "rate_limited",
+      "pass_rate": "1/12",
+      "issue": "near-ceiling",
+      "n_passes": 1
+    },
+    {
+      "task_id": "server-actions.composed_actions.001",
+      "category": "server-actions",
+      "subcategory": "composed_actions",
+      "pass_rate": "12/12",
+      "issue": "saturated",
+      "n_passes": 12
+    },
+    {
+      "task_id": "server-actions.enqueue_job.001",
+      "category": "server-actions",
+      "subcategory": "enqueue_job",
+      "pass_rate": "1/12",
+      "issue": "near-ceiling",
+      "n_passes": 1
+    },
+    {
+      "task_id": "server-actions.bulk_update.001",
+      "category": "server-actions",
+      "subcategory": "bulk_update",
+      "pass_rate": "1/12",
+      "issue": "near-ceiling",
+      "n_passes": 1
+    },
+    {
+      "task_id": "server-actions.file_persist.001",
+      "category": "server-actions",
+      "subcategory": "file_persist",
+      "pass_rate": "1/12",
+      "issue": "near-ceiling",
+      "n_passes": 1
+    },
+    {
+      "task_id": "server-actions.signed_in_wrapper.001",
+      "category": "server-actions",
+      "subcategory": "signed_in_wrapper",
+      "pass_rate": "1/12",
+      "issue": "near-ceiling",
+      "n_passes": 1
+    },
+    {
+      "task_id": "server-actions.session_extend.001",
+      "category": "server-actions",
+      "subcategory": "session_extend",
+      "pass_rate": "0/12",
+      "issue": "ceiling",
+      "n_passes": 0
+    },
+    {
+      "task_id": "testing.vitest_unit_test.001",
+      "category": "testing",
+      "subcategory": "vitest_unit_test",
+      "pass_rate": "11/12",
+      "issue": "near-saturated",
+      "n_passes": 11
+    },
+    {
+      "task_id": "testing.user_event_click.001",
+      "category": "testing",
+      "subcategory": "user_event_click",
+      "pass_rate": "1/12",
+      "issue": "near-ceiling",
+      "n_passes": 1
+    },
+    {
+      "task_id": "testing.playwright_form_e2e.001",
+      "category": "testing",
+      "subcategory": "playwright_form_e2e",
+      "pass_rate": "0/12",
+      "issue": "ceiling",
+      "n_passes": 0
+    },
+    {
+      "task_id": "testing.next_router_mock.001",
+      "category": "testing",
+      "subcategory": "next_router_mock",
+      "pass_rate": "1/12",
+      "issue": "near-ceiling",
+      "n_passes": 1
+    },
+    {
+      "task_id": "testing.msw_fetch_mock.001",
+      "category": "testing",
+      "subcategory": "msw_fetch_mock",
+      "pass_rate": "11/12",
+      "issue": "near-saturated",
+      "n_passes": 11
+    },
+    {
+      "task_id": "typescript-advanced.template_literal_type.001",
+      "category": "typescript-advanced",
+      "subcategory": "template_literal_type",
+      "pass_rate": "1/12",
+      "issue": "near-ceiling",
+      "n_passes": 1
+    },
+    {
+      "task_id": "typescript-advanced.infer_keyword.001",
+      "category": "typescript-advanced",
+      "subcategory": "infer_keyword",
+      "pass_rate": "0/12",
+      "issue": "ceiling",
+      "n_passes": 0
+    },
+    {
+      "task_id": "typescript-advanced.generic_constraint.001",
+      "category": "typescript-advanced",
+      "subcategory": "generic_constraint",
+      "pass_rate": "1/12",
+      "issue": "near-ceiling",
+      "n_passes": 1
+    },
+    {
+      "task_id": "typescript-advanced.satisfies_operator.001",
+      "category": "typescript-advanced",
+      "subcategory": "satisfies_operator",
+      "pass_rate": "1/12",
+      "issue": "near-ceiling",
+      "n_passes": 1
+    },
+    {
+      "task_id": "typescript-advanced.discriminated_narrow.001",
+      "category": "typescript-advanced",
+      "subcategory": "discriminated_narrow",
+      "pass_rate": "12/12",
+      "issue": "saturated",
+      "n_passes": 12
+    }
+  ],
+  "inverted_pass": [
+    {
+      "task_id": "form.rhf_signup.003",
+      "category": "form",
+      "top_half_pass": "2/6",
+      "bottom_half_pass": "5/6",
+      "issue": "inverted-pass"
+    },
+    {
+      "task_id": "typescript.awaited_simple.018",
+      "category": "typescript",
+      "top_half_pass": "1/6",
+      "bottom_half_pass": "4/6",
+      "issue": "inverted-pass"
+    },
+    {
+      "task_id": "auth.handlers_reexport.005",
+      "category": "auth",
+      "top_half_pass": "1/6",
+      "bottom_half_pass": "5/6",
+      "issue": "inverted-pass"
+    },
+    {
+      "task_id": "utils.sleep.011",
+      "category": "utils",
+      "top_half_pass": "1/6",
+      "bottom_half_pass": "4/6",
+      "issue": "inverted-pass"
+    },
+    {
+      "task_id": "utils.cn.012",
+      "category": "utils",
+      "top_half_pass": "2/6",
+      "bottom_half_pass": "4/6",
+      "issue": "inverted-pass"
+    },
+    {
+      "task_id": "utils.capitalize.020",
+      "category": "utils",
+      "top_half_pass": "0/6",
+      "bottom_half_pass": "4/6",
+      "issue": "inverted-pass"
+    },
+    {
+      "task_id": "utils.noop.023",
+      "category": "utils",
+      "top_half_pass": "0/6",
+      "bottom_half_pass": "4/6",
+      "issue": "inverted-pass"
+    }
+  ],
+  "difficulty": [
+    {
+      "task_id": "react.counter.007",
+      "category": "react",
+      "difficulty_label": "trivial",
+      "actual_pass_rate": "67%",
+      "issue": "trivial but 67% pass rate"
+    },
+    {
+      "task_id": "react.toggle.012",
+      "category": "react",
+      "difficulty_label": "trivial",
+      "actual_pass_rate": "67%",
+      "issue": "trivial but 67% pass rate"
+    },
+    {
+      "task_id": "react.toggle.013",
+      "category": "react",
+      "difficulty_label": "trivial",
+      "actual_pass_rate": "67%",
+      "issue": "trivial but 67% pass rate"
+    },
+    {
+      "task_id": "react.avatar.021",
+      "category": "react",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "33%",
+      "issue": "mid but 33% pass rate"
+    },
+    {
+      "task_id": "react.pagination.026",
+      "category": "react",
+      "difficulty_label": "hard",
+      "actual_pass_rate": "92%",
+      "issue": "hard but 92% pass rate"
+    },
+    {
+      "task_id": "react.skeleton.028",
+      "category": "react",
+      "difficulty_label": "trivial",
+      "actual_pass_rate": "58%",
+      "issue": "trivial but 58% pass rate"
+    },
+    {
+      "task_id": "react.skeleton.029",
+      "category": "react",
+      "difficulty_label": "trivial",
+      "actual_pass_rate": "50%",
+      "issue": "trivial but 50% pass rate"
+    },
+    {
+      "task_id": "react.skeleton.030",
+      "category": "react",
+      "difficulty_label": "trivial",
+      "actual_pass_rate": "50%",
+      "issue": "trivial but 50% pass rate"
+    },
+    {
+      "task_id": "react.skeleton.031",
+      "category": "react",
+      "difficulty_label": "trivial",
+      "actual_pass_rate": "33%",
+      "issue": "trivial but 33% pass rate"
+    },
+    {
+      "task_id": "hooks.useCounter.009",
+      "category": "hooks",
+      "difficulty_label": "trivial",
+      "actual_pass_rate": "25%",
+      "issue": "trivial but 25% pass rate"
+    },
+    {
+      "task_id": "nextjs.layout_metadata.012",
+      "category": "nextjs",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "33%",
+      "issue": "mid but 33% pass rate"
+    },
+    {
+      "task_id": "nextjs.layout_metadata.013",
+      "category": "nextjs",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "33%",
+      "issue": "mid but 33% pass rate"
+    },
+    {
+      "task_id": "nextjs.layout_metadata.015",
+      "category": "nextjs",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "33%",
+      "issue": "mid but 33% pass rate"
+    },
+    {
+      "task_id": "nextjs.loading.016",
+      "category": "nextjs",
+      "difficulty_label": "trivial",
+      "actual_pass_rate": "8%",
+      "issue": "trivial but 8% pass rate"
+    },
+    {
+      "task_id": "nextjs.loading.017",
+      "category": "nextjs",
+      "difficulty_label": "trivial",
+      "actual_pass_rate": "8%",
+      "issue": "trivial but 8% pass rate"
+    },
+    {
+      "task_id": "nextjs.loading.019",
+      "category": "nextjs",
+      "difficulty_label": "trivial",
+      "actual_pass_rate": "8%",
+      "issue": "trivial but 8% pass rate"
+    },
+    {
+      "task_id": "server-actions.create_zod.001",
+      "category": "server-actions",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "33%",
+      "issue": "mid but 33% pass rate"
+    },
+    {
+      "task_id": "server-actions.create_zod.002",
+      "category": "server-actions",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "33%",
+      "issue": "mid but 33% pass rate"
+    },
+    {
+      "task_id": "server-actions.create_zod.003",
+      "category": "server-actions",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "33%",
+      "issue": "mid but 33% pass rate"
+    },
+    {
+      "task_id": "server-actions.create_zod.004",
+      "category": "server-actions",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "33%",
+      "issue": "mid but 33% pass rate"
+    },
+    {
+      "task_id": "server-actions.create_zod.006",
+      "category": "server-actions",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "33%",
+      "issue": "mid but 33% pass rate"
+    },
+    {
+      "task_id": "server-actions.create_zod.007",
+      "category": "server-actions",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "33%",
+      "issue": "mid but 33% pass rate"
+    },
+    {
+      "task_id": "server-actions.create_zod.008",
+      "category": "server-actions",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "33%",
+      "issue": "mid but 33% pass rate"
+    },
+    {
+      "task_id": "server-actions.create_zod.009",
+      "category": "server-actions",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "33%",
+      "issue": "mid but 33% pass rate"
+    },
+    {
+      "task_id": "server-actions.create_zod.010",
+      "category": "server-actions",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "33%",
+      "issue": "mid but 33% pass rate"
+    },
+    {
+      "task_id": "server-actions.update_zod.016",
+      "category": "server-actions",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "33%",
+      "issue": "mid but 33% pass rate"
+    },
+    {
+      "task_id": "server-actions.delete.020",
+      "category": "server-actions",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "33%",
+      "issue": "mid but 33% pass rate"
+    },
+    {
+      "task_id": "server-actions.delete.023",
+      "category": "server-actions",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "33%",
+      "issue": "mid but 33% pass rate"
+    },
+    {
+      "task_id": "server-actions.archive.025",
+      "category": "server-actions",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "8%",
+      "issue": "mid but 8% pass rate"
+    },
+    {
+      "task_id": "server-actions.archive.026",
+      "category": "server-actions",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "8%",
+      "issue": "mid but 8% pass rate"
+    },
+    {
+      "task_id": "server-actions.archive.027",
+      "category": "server-actions",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "8%",
+      "issue": "mid but 8% pass rate"
+    },
+    {
+      "task_id": "server-actions.archive.028",
+      "category": "server-actions",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "25%",
+      "issue": "mid but 25% pass rate"
+    },
+    {
+      "task_id": "server-actions.archive.029",
+      "category": "server-actions",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "8%",
+      "issue": "mid but 8% pass rate"
+    },
+    {
+      "task_id": "server-actions.archive.030",
+      "category": "server-actions",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "25%",
+      "issue": "mid but 25% pass rate"
+    },
+    {
+      "task_id": "server-actions.formdata.031",
+      "category": "server-actions",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "25%",
+      "issue": "mid but 25% pass rate"
+    },
+    {
+      "task_id": "server-actions.formdata.032",
+      "category": "server-actions",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "25%",
+      "issue": "mid but 25% pass rate"
+    },
+    {
+      "task_id": "server-actions.formdata.033",
+      "category": "server-actions",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "25%",
+      "issue": "mid but 25% pass rate"
+    },
+    {
+      "task_id": "server-actions.formdata.034",
+      "category": "server-actions",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "25%",
+      "issue": "mid but 25% pass rate"
+    },
+    {
+      "task_id": "api-routes.get_single.014",
+      "category": "api-routes",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "33%",
+      "issue": "mid but 33% pass rate"
+    },
+    {
+      "task_id": "tailwind.hero.001",
+      "category": "tailwind",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "25%",
+      "issue": "mid but 25% pass rate"
+    },
+    {
+      "task_id": "tailwind.hero.002",
+      "category": "tailwind",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "8%",
+      "issue": "mid but 8% pass rate"
+    },
+    {
+      "task_id": "tailwind.hero.003",
+      "category": "tailwind",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "8%",
+      "issue": "mid but 8% pass rate"
+    },
+    {
+      "task_id": "tailwind.hero.004",
+      "category": "tailwind",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "17%",
+      "issue": "mid but 17% pass rate"
+    },
+    {
+      "task_id": "tailwind.hero.005",
+      "category": "tailwind",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "8%",
+      "issue": "mid but 8% pass rate"
+    },
+    {
+      "task_id": "tailwind.footer_grid.007",
+      "category": "tailwind",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "8%",
+      "issue": "mid but 8% pass rate"
+    },
+    {
+      "task_id": "tailwind.stats_bar.012",
+      "category": "tailwind",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "25%",
+      "issue": "mid but 25% pass rate"
+    },
+    {
+      "task_id": "typescript.type_guard.010",
+      "category": "typescript",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "8%",
+      "issue": "mid but 8% pass rate"
+    },
+    {
+      "task_id": "typescript.type_guard.011",
+      "category": "typescript",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "8%",
+      "issue": "mid but 8% pass rate"
+    },
+    {
+      "task_id": "typescript.type_guard.012",
+      "category": "typescript",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "17%",
+      "issue": "mid but 17% pass rate"
+    },
+    {
+      "task_id": "typescript.type_guard.013",
+      "category": "typescript",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "25%",
+      "issue": "mid but 25% pass rate"
+    },
+    {
+      "task_id": "typescript.non_nullable.015",
+      "category": "typescript",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "0%",
+      "issue": "mid but 0% pass rate"
+    },
+    {
+      "task_id": "auth.nextauth_config.004",
+      "category": "auth",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "17%",
+      "issue": "mid but 17% pass rate"
+    },
+    {
+      "task_id": "auth.handlers_reexport.005",
+      "category": "auth",
+      "difficulty_label": "trivial",
+      "actual_pass_rate": "50%",
+      "issue": "trivial but 50% pass rate"
+    },
+    {
+      "task_id": "auth.middleware.010",
+      "category": "auth",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "25%",
+      "issue": "mid but 25% pass rate"
+    },
+    {
+      "task_id": "auth.middleware.011",
+      "category": "auth",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "25%",
+      "issue": "mid but 25% pass rate"
+    },
+    {
+      "task_id": "auth.middleware.012",
+      "category": "auth",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "25%",
+      "issue": "mid but 25% pass rate"
+    },
+    {
+      "task_id": "payments.stripe_webhook.005",
+      "category": "payments",
+      "difficulty_label": "hard",
+      "actual_pass_rate": "92%",
+      "issue": "hard but 92% pass rate"
+    },
+    {
+      "task_id": "database.prisma_model.001",
+      "category": "database",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "33%",
+      "issue": "mid but 33% pass rate"
+    },
+    {
+      "task_id": "database.prisma_model.005",
+      "category": "database",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "33%",
+      "issue": "mid but 33% pass rate"
+    },
+    {
+      "task_id": "database.prisma_model.006",
+      "category": "database",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "33%",
+      "issue": "mid but 33% pass rate"
+    },
+    {
+      "task_id": "database.prisma_model.008",
+      "category": "database",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "33%",
+      "issue": "mid but 33% pass rate"
+    },
+    {
+      "task_id": "database.prisma_singleton.011",
+      "category": "database",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "33%",
+      "issue": "mid but 33% pass rate"
+    },
+    {
+      "task_id": "database.prisma_relations.013",
+      "category": "database",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "25%",
+      "issue": "mid but 25% pass rate"
+    },
+    {
+      "task_id": "database.prisma_relations.014",
+      "category": "database",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "8%",
+      "issue": "mid but 8% pass rate"
+    },
+    {
+      "task_id": "database.drizzle_schema.018",
+      "category": "database",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "17%",
+      "issue": "mid but 17% pass rate"
+    },
+    {
+      "task_id": "database.drizzle_schema.019",
+      "category": "database",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "17%",
+      "issue": "mid but 17% pass rate"
+    },
+    {
+      "task_id": "utils.clamp.009",
+      "category": "utils",
+      "difficulty_label": "trivial",
+      "actual_pass_rate": "25%",
+      "issue": "trivial but 25% pass rate"
+    },
+    {
+      "task_id": "utils.unique.010",
+      "category": "utils",
+      "difficulty_label": "trivial",
+      "actual_pass_rate": "0%",
+      "issue": "trivial but 0% pass rate"
+    },
+    {
+      "task_id": "utils.sleep.011",
+      "category": "utils",
+      "difficulty_label": "trivial",
+      "actual_pass_rate": "42%",
+      "issue": "trivial but 42% pass rate"
+    },
+    {
+      "task_id": "utils.cn.012",
+      "category": "utils",
+      "difficulty_label": "trivial",
+      "actual_pass_rate": "50%",
+      "issue": "trivial but 50% pass rate"
+    },
+    {
+      "task_id": "utils.typed_env.013",
+      "category": "utils",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "25%",
+      "issue": "mid but 25% pass rate"
+    },
+    {
+      "task_id": "utils.is_browser.014",
+      "category": "utils",
+      "difficulty_label": "trivial",
+      "actual_pass_rate": "8%",
+      "issue": "trivial but 8% pass rate"
+    },
+    {
+      "task_id": "hooks.useDarkMode.019",
+      "category": "hooks",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "17%",
+      "issue": "mid but 17% pass rate"
+    },
+    {
+      "task_id": "hooks.useReducerForm.024",
+      "category": "hooks",
+      "difficulty_label": "hard",
+      "actual_pass_rate": "92%",
+      "issue": "hard but 92% pass rate"
+    },
+    {
+      "task_id": "react.spinner.035",
+      "category": "react",
+      "difficulty_label": "trivial",
+      "actual_pass_rate": "50%",
+      "issue": "trivial but 50% pass rate"
+    },
+    {
+      "task_id": "react.icon_button.038",
+      "category": "react",
+      "difficulty_label": "trivial",
+      "actual_pass_rate": "25%",
+      "issue": "trivial but 25% pass rate"
+    },
+    {
+      "task_id": "form.create_task_form.013",
+      "category": "form",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "33%",
+      "issue": "mid but 33% pass rate"
+    },
+    {
+      "task_id": "tailwind.cta_section.020",
+      "category": "tailwind",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "0%",
+      "issue": "mid but 0% pass rate"
+    },
+    {
+      "task_id": "tailwind.card_grid.025",
+      "category": "tailwind",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "25%",
+      "issue": "mid but 25% pass rate"
+    },
+    {
+      "task_id": "typescript.deep_readonly.021",
+      "category": "typescript",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "33%",
+      "issue": "mid but 33% pass rate"
+    },
+    {
+      "task_id": "typescript.extract_array_element.024",
+      "category": "typescript",
+      "difficulty_label": "trivial",
+      "actual_pass_rate": "33%",
+      "issue": "trivial but 33% pass rate"
+    },
+    {
+      "task_id": "typescript.function_args.025",
+      "category": "typescript",
+      "difficulty_label": "trivial",
+      "actual_pass_rate": "0%",
+      "issue": "trivial but 0% pass rate"
+    },
+    {
+      "task_id": "typescript.function_return.026",
+      "category": "typescript",
+      "difficulty_label": "trivial",
+      "actual_pass_rate": "42%",
+      "issue": "trivial but 42% pass rate"
+    },
+    {
+      "task_id": "typescript.branded_id.027",
+      "category": "typescript",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "0%",
+      "issue": "mid but 0% pass rate"
+    },
+    {
+      "task_id": "auth.magic_link_provider.020",
+      "category": "auth",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "0%",
+      "issue": "mid but 0% pass rate"
+    },
+    {
+      "task_id": "utils.format_date.016",
+      "category": "utils",
+      "difficulty_label": "trivial",
+      "actual_pass_rate": "8%",
+      "issue": "trivial but 8% pass rate"
+    },
+    {
+      "task_id": "utils.is_valid_url.018",
+      "category": "utils",
+      "difficulty_label": "trivial",
+      "actual_pass_rate": "67%",
+      "issue": "trivial but 67% pass rate"
+    },
+    {
+      "task_id": "utils.truncate.019",
+      "category": "utils",
+      "difficulty_label": "trivial",
+      "actual_pass_rate": "42%",
+      "issue": "trivial but 42% pass rate"
+    },
+    {
+      "task_id": "utils.capitalize.020",
+      "category": "utils",
+      "difficulty_label": "trivial",
+      "actual_pass_rate": "33%",
+      "issue": "trivial but 33% pass rate"
+    },
+    {
+      "task_id": "utils.parse_query_string.021",
+      "category": "utils",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "8%",
+      "issue": "mid but 8% pass rate"
+    },
+    {
+      "task_id": "utils.build_query_string.022",
+      "category": "utils",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "8%",
+      "issue": "mid but 8% pass rate"
+    },
+    {
+      "task_id": "utils.noop.023",
+      "category": "utils",
+      "difficulty_label": "trivial",
+      "actual_pass_rate": "33%",
+      "issue": "trivial but 33% pass rate"
+    },
+    {
+      "task_id": "database.prisma_search.023",
+      "category": "database",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "33%",
+      "issue": "mid but 33% pass rate"
+    },
+    {
+      "task_id": "database.drizzle_relations.024",
+      "category": "database",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "8%",
+      "issue": "mid but 8% pass rate"
+    },
+    {
+      "task_id": "database.drizzle_insert.025",
+      "category": "database",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "17%",
+      "issue": "mid but 17% pass rate"
+    },
+    {
+      "task_id": "nextjs.parallel_routes.045",
+      "category": "nextjs",
+      "difficulty_label": "hard",
+      "actual_pass_rate": "92%",
+      "issue": "hard but 92% pass rate"
+    },
+    {
+      "task_id": "api-routes.patch_route.034",
+      "category": "api-routes",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "25%",
+      "issue": "mid but 25% pass rate"
+    },
+    {
+      "task_id": "api-routes.edge_runtime.001",
+      "category": "api-routes",
+      "difficulty_label": "trivial",
+      "actual_pass_rate": "33%",
+      "issue": "trivial but 33% pass rate"
+    },
+    {
+      "task_id": "api-routes.geo_response.001",
+      "category": "api-routes",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "25%",
+      "issue": "mid but 25% pass rate"
+    },
+    {
+      "task_id": "api-routes.file_upload_formdata.001",
+      "category": "api-routes",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "0%",
+      "issue": "mid but 0% pass rate"
+    },
+    {
+      "task_id": "api-routes.cors_preflight.001",
+      "category": "api-routes",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "33%",
+      "issue": "mid but 33% pass rate"
+    },
+    {
+      "task_id": "api-routes.etag_conditional.001",
+      "category": "api-routes",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "8%",
+      "issue": "mid but 8% pass rate"
+    },
+    {
+      "task_id": "api-routes.openapi_export.001",
+      "category": "api-routes",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "0%",
+      "issue": "mid but 0% pass rate"
+    },
+    {
+      "task_id": "api-routes.versioned_route.001",
+      "category": "api-routes",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "17%",
+      "issue": "mid but 17% pass rate"
+    },
+    {
+      "task_id": "api-routes.health_check.001",
+      "category": "api-routes",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "8%",
+      "issue": "mid but 8% pass rate"
+    },
+    {
+      "task_id": "api-routes.pagination_link_header.001",
+      "category": "api-routes",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "0%",
+      "issue": "mid but 0% pass rate"
+    },
+    {
+      "task_id": "api-routes.json_schema_validation.001",
+      "category": "api-routes",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "8%",
+      "issue": "mid but 8% pass rate"
+    },
+    {
+      "task_id": "api-routes.content_negotiation.001",
+      "category": "api-routes",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "8%",
+      "issue": "mid but 8% pass rate"
+    },
+    {
+      "task_id": "api-routes.cron_signature.001",
+      "category": "api-routes",
+      "difficulty_label": "hard",
+      "actual_pass_rate": "100%",
+      "issue": "hard but 100% pass rate"
+    },
+    {
+      "task_id": "api-routes.download_csv.001",
+      "category": "api-routes",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "0%",
+      "issue": "mid but 0% pass rate"
+    },
+    {
+      "task_id": "auth.email_verification.001",
+      "category": "auth",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "0%",
+      "issue": "mid but 0% pass rate"
+    },
+    {
+      "task_id": "auth.role_gate_admin.001",
+      "category": "auth",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "33%",
+      "issue": "mid but 33% pass rate"
+    },
+    {
+      "task_id": "auth.permission_helper.001",
+      "category": "auth",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "0%",
+      "issue": "mid but 0% pass rate"
+    },
+    {
+      "task_id": "auth.signout_destroy_session.001",
+      "category": "auth",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "0%",
+      "issue": "mid but 0% pass rate"
+    },
+    {
+      "task_id": "database.prisma_nested_create.001",
+      "category": "database",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "8%",
+      "issue": "mid but 8% pass rate"
+    },
+    {
+      "task_id": "database.prisma_cursor_pagination.001",
+      "category": "database",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "17%",
+      "issue": "mid but 17% pass rate"
+    },
+    {
+      "task_id": "database.prisma_count_groupby.001",
+      "category": "database",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "25%",
+      "issue": "mid but 25% pass rate"
+    },
+    {
+      "task_id": "database.prisma_upsert.001",
+      "category": "database",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "33%",
+      "issue": "mid but 33% pass rate"
+    },
+    {
+      "task_id": "database.connection_pool_singleton.001",
+      "category": "database",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "8%",
+      "issue": "mid but 8% pass rate"
+    },
+    {
+      "task_id": "database.soft_delete.001",
+      "category": "database",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "0%",
+      "issue": "mid but 0% pass rate"
+    },
+    {
+      "task_id": "database.row_level_filter.001",
+      "category": "database",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "0%",
+      "issue": "mid but 0% pass rate"
+    },
+    {
+      "task_id": "database.compound_unique_lookup.001",
+      "category": "database",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "33%",
+      "issue": "mid but 33% pass rate"
+    },
+    {
+      "task_id": "database.aggregate_window.001",
+      "category": "database",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "25%",
+      "issue": "mid but 25% pass rate"
+    },
+    {
+      "task_id": "database.drizzle_insert_returning.001",
+      "category": "database",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "33%",
+      "issue": "mid but 33% pass rate"
+    },
+    {
+      "task_id": "form.rhf_zod_resolver.001",
+      "category": "form",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "100%",
+      "issue": "mid but 100% pass rate"
+    },
+    {
+      "task_id": "form.rhf_watch.001",
+      "category": "form",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "8%",
+      "issue": "mid but 8% pass rate"
+    },
+    {
+      "task_id": "form.html5_validation.001",
+      "category": "form",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "8%",
+      "issue": "mid but 8% pass rate"
+    },
+    {
+      "task_id": "form.file_input.001",
+      "category": "form",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "17%",
+      "issue": "mid but 17% pass rate"
+    },
+    {
+      "task_id": "form.rhf_dependent_field.001",
+      "category": "form",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "33%",
+      "issue": "mid but 33% pass rate"
+    },
+    {
+      "task_id": "middleware.bot_block.001",
+      "category": "middleware",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "33%",
+      "issue": "mid but 33% pass rate"
+    },
+    {
+      "task_id": "middleware.csrf_token.001",
+      "category": "middleware",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "25%",
+      "issue": "mid but 25% pass rate"
+    },
+    {
+      "task_id": "middleware.maintenance_mode.001",
+      "category": "middleware",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "0%",
+      "issue": "mid but 0% pass rate"
+    },
+    {
+      "task_id": "middleware.subdomain_routing.001",
+      "category": "middleware",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "25%",
+      "issue": "mid but 25% pass rate"
+    },
+    {
+      "task_id": "middleware.api_key_validation.001",
+      "category": "middleware",
+      "difficulty_label": "trivial",
+      "actual_pass_rate": "25%",
+      "issue": "trivial but 25% pass rate"
+    },
+    {
+      "task_id": "middleware.session_refresh.001",
+      "category": "middleware",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "17%",
+      "issue": "mid but 17% pass rate"
+    },
+    {
+      "task_id": "middleware.geoblock_country.001",
+      "category": "middleware",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "0%",
+      "issue": "mid but 0% pass rate"
+    },
+    {
+      "task_id": "middleware.correlation_id.001",
+      "category": "middleware",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "17%",
+      "issue": "mid but 17% pass rate"
+    },
+    {
+      "task_id": "middleware.observability_log.001",
+      "category": "middleware",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "8%",
+      "issue": "mid but 8% pass rate"
+    },
+    {
+      "task_id": "middleware.cache_control.001",
+      "category": "middleware",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "0%",
+      "issue": "mid but 0% pass rate"
+    },
+    {
+      "task_id": "middleware.security_headers.001",
+      "category": "middleware",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "17%",
+      "issue": "mid but 17% pass rate"
+    },
+    {
+      "task_id": "middleware.feature_flag_routing.001",
+      "category": "middleware",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "25%",
+      "issue": "mid but 25% pass rate"
+    },
+    {
+      "task_id": "middleware.forwarded_ip.001",
+      "category": "middleware",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "8%",
+      "issue": "mid but 8% pass rate"
+    },
+    {
+      "task_id": "middleware.https_redirect.001",
+      "category": "middleware",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "33%",
+      "issue": "mid but 33% pass rate"
+    },
+    {
+      "task_id": "nextjs.fetch_no_store.001",
+      "category": "nextjs",
+      "difficulty_label": "trivial",
+      "actual_pass_rate": "58%",
+      "issue": "trivial but 58% pass rate"
+    },
+    {
+      "task_id": "nextjs.fetch_revalidate_seconds.001",
+      "category": "nextjs",
+      "difficulty_label": "trivial",
+      "actual_pass_rate": "50%",
+      "issue": "trivial but 50% pass rate"
+    },
+    {
+      "task_id": "nextjs.react_cache.001",
+      "category": "nextjs",
+      "difficulty_label": "hard",
+      "actual_pass_rate": "92%",
+      "issue": "hard but 92% pass rate"
+    },
+    {
+      "task_id": "nextjs.error_boundary_recovery.001",
+      "category": "nextjs",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "8%",
+      "issue": "mid but 8% pass rate"
+    },
+    {
+      "task_id": "nextjs.locale_segment_param.001",
+      "category": "nextjs",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "25%",
+      "issue": "mid but 25% pass rate"
+    },
+    {
+      "task_id": "nextjs.search_params_zod.001",
+      "category": "nextjs",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "17%",
+      "issue": "mid but 17% pass rate"
+    },
+    {
+      "task_id": "nextjs.generate_metadata.001",
+      "category": "nextjs",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "25%",
+      "issue": "mid but 25% pass rate"
+    },
+    {
+      "task_id": "nextjs.sitemap_dynamic.001",
+      "category": "nextjs",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "25%",
+      "issue": "mid but 25% pass rate"
+    },
+    {
+      "task_id": "nextjs.error_boundary_segment.001",
+      "category": "nextjs",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "25%",
+      "issue": "mid but 25% pass rate"
+    },
+    {
+      "task_id": "nextjs.global_error.001",
+      "category": "nextjs",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "17%",
+      "issue": "mid but 17% pass rate"
+    },
+    {
+      "task_id": "nextjs.catch_all_route.001",
+      "category": "nextjs",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "8%",
+      "issue": "mid but 8% pass rate"
+    },
+    {
+      "task_id": "nextjs.optional_catch_all.001",
+      "category": "nextjs",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "8%",
+      "issue": "mid but 8% pass rate"
+    },
+    {
+      "task_id": "nextjs.fetch_revalidate_tag.001",
+      "category": "nextjs",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "0%",
+      "issue": "mid but 0% pass rate"
+    },
+    {
+      "task_id": "nextjs.middleware_matcher_advanced.001",
+      "category": "nextjs",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "8%",
+      "issue": "mid but 8% pass rate"
+    },
+    {
+      "task_id": "nextjs.rewrites_config.001",
+      "category": "nextjs",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "8%",
+      "issue": "mid but 8% pass rate"
+    },
+    {
+      "task_id": "nextjs.headers_config.001",
+      "category": "nextjs",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "25%",
+      "issue": "mid but 25% pass rate"
+    },
+    {
+      "task_id": "performance.next_image_sized.001",
+      "category": "performance",
+      "difficulty_label": "trivial",
+      "actual_pass_rate": "50%",
+      "issue": "trivial but 50% pass rate"
+    },
+    {
+      "task_id": "performance.next_image_fill.001",
+      "category": "performance",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "17%",
+      "issue": "mid but 17% pass rate"
+    },
+    {
+      "task_id": "performance.dynamic_import_client.001",
+      "category": "performance",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "17%",
+      "issue": "mid but 17% pass rate"
+    },
+    {
+      "task_id": "performance.react_memo.001",
+      "category": "performance",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "17%",
+      "issue": "mid but 17% pass rate"
+    },
+    {
+      "task_id": "performance.use_callback.001",
+      "category": "performance",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "0%",
+      "issue": "mid but 0% pass rate"
+    },
+    {
+      "task_id": "performance.lazy_suspense.001",
+      "category": "performance",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "100%",
+      "issue": "mid but 100% pass rate"
+    },
+    {
+      "task_id": "performance.image_priority_lcp.001",
+      "category": "performance",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "0%",
+      "issue": "mid but 0% pass rate"
+    },
+    {
+      "task_id": "performance.next_font_subset.001",
+      "category": "performance",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "0%",
+      "issue": "mid but 0% pass rate"
+    },
+    {
+      "task_id": "react.form_action.001",
+      "category": "react",
+      "difficulty_label": "trivial",
+      "actual_pass_rate": "33%",
+      "issue": "trivial but 33% pass rate"
+    },
+    {
+      "task_id": "react.use_form_state.001",
+      "category": "react",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "17%",
+      "issue": "mid but 17% pass rate"
+    },
+    {
+      "task_id": "react.action_state.001",
+      "category": "react",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "33%",
+      "issue": "mid but 33% pass rate"
+    },
+    {
+      "task_id": "react.file_drop_zone.001",
+      "category": "react",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "25%",
+      "issue": "mid but 25% pass rate"
+    },
+    {
+      "task_id": "react.use_search_params_client.001",
+      "category": "react",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "25%",
+      "issue": "mid but 25% pass rate"
+    },
+    {
+      "task_id": "react.portal_modal.001",
+      "category": "react",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "33%",
+      "issue": "mid but 33% pass rate"
+    },
+    {
+      "task_id": "react.use_layout_effect.001",
+      "category": "react",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "8%",
+      "issue": "mid but 8% pass rate"
+    },
+    {
+      "task_id": "react.children_map.001",
+      "category": "react",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "8%",
+      "issue": "mid but 8% pass rate"
+    },
+    {
+      "task_id": "react.controlled_select.001",
+      "category": "react",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "100%",
+      "issue": "mid but 100% pass rate"
+    },
+    {
+      "task_id": "server-actions.zod_field_errors.001",
+      "category": "server-actions",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "25%",
+      "issue": "mid but 25% pass rate"
+    },
+    {
+      "task_id": "server-actions.cookies_set.001",
+      "category": "server-actions",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "17%",
+      "issue": "mid but 17% pass rate"
+    },
+    {
+      "task_id": "server-actions.headers_check.001",
+      "category": "server-actions",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "25%",
+      "issue": "mid but 25% pass rate"
+    },
+    {
+      "task_id": "server-actions.audit_log.001",
+      "category": "server-actions",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "100%",
+      "issue": "mid but 100% pass rate"
+    },
+    {
+      "task_id": "server-actions.composed_actions.001",
+      "category": "server-actions",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "100%",
+      "issue": "mid but 100% pass rate"
+    },
+    {
+      "task_id": "server-actions.enqueue_job.001",
+      "category": "server-actions",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "8%",
+      "issue": "mid but 8% pass rate"
+    },
+    {
+      "task_id": "server-actions.bulk_update.001",
+      "category": "server-actions",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "8%",
+      "issue": "mid but 8% pass rate"
+    },
+    {
+      "task_id": "server-actions.toggle_flag.001",
+      "category": "server-actions",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "33%",
+      "issue": "mid but 33% pass rate"
+    },
+    {
+      "task_id": "server-actions.file_persist.001",
+      "category": "server-actions",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "8%",
+      "issue": "mid but 8% pass rate"
+    },
+    {
+      "task_id": "server-actions.signed_in_wrapper.001",
+      "category": "server-actions",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "8%",
+      "issue": "mid but 8% pass rate"
+    },
+    {
+      "task_id": "server-actions.session_extend.001",
+      "category": "server-actions",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "0%",
+      "issue": "mid but 0% pass rate"
+    },
+    {
+      "task_id": "testing.vitest_async_test.001",
+      "category": "testing",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "17%",
+      "issue": "mid but 17% pass rate"
+    },
+    {
+      "task_id": "testing.vitest_mock_module.001",
+      "category": "testing",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "33%",
+      "issue": "mid but 33% pass rate"
+    },
+    {
+      "task_id": "testing.vitest_mock_fn.001",
+      "category": "testing",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "33%",
+      "issue": "mid but 33% pass rate"
+    },
+    {
+      "task_id": "testing.user_event_click.001",
+      "category": "testing",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "8%",
+      "issue": "mid but 8% pass rate"
+    },
+    {
+      "task_id": "testing.form_submission.001",
+      "category": "testing",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "17%",
+      "issue": "mid but 17% pass rate"
+    },
+    {
+      "task_id": "testing.playwright_smoke.001",
+      "category": "testing",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "25%",
+      "issue": "mid but 25% pass rate"
+    },
+    {
+      "task_id": "testing.next_router_mock.001",
+      "category": "testing",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "8%",
+      "issue": "mid but 8% pass rate"
+    },
+    {
+      "task_id": "testing.snapshot_test.001",
+      "category": "testing",
+      "difficulty_label": "trivial",
+      "actual_pass_rate": "17%",
+      "issue": "trivial but 17% pass rate"
+    },
+    {
+      "task_id": "testing.msw_fetch_mock.001",
+      "category": "testing",
+      "difficulty_label": "hard",
+      "actual_pass_rate": "92%",
+      "issue": "hard but 92% pass rate"
+    },
+    {
+      "task_id": "typescript-advanced.mapped_type.001",
+      "category": "typescript-advanced",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "17%",
+      "issue": "mid but 17% pass rate"
+    },
+    {
+      "task_id": "typescript-advanced.template_literal_type.001",
+      "category": "typescript-advanced",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "8%",
+      "issue": "mid but 8% pass rate"
+    },
+    {
+      "task_id": "typescript-advanced.generic_constraint.001",
+      "category": "typescript-advanced",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "8%",
+      "issue": "mid but 8% pass rate"
+    },
+    {
+      "task_id": "typescript-advanced.satisfies_operator.001",
+      "category": "typescript-advanced",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "8%",
+      "issue": "mid but 8% pass rate"
+    },
+    {
+      "task_id": "typescript-advanced.discriminated_narrow.001",
+      "category": "typescript-advanced",
+      "difficulty_label": "mid",
+      "actual_pass_rate": "100%",
+      "issue": "mid but 100% pass rate"
+    }
+  ],
+  "source_urls": [
+    {
+      "task_id": "api-routes.geo_response.001",
+      "category": "api-routes",
+      "source_url": "https://vercel.com/docs/edge-network/headers/request-headers",
+      "status": "err:HTTPError",
+      "issue": "broken-source-url"
+    },
+    {
+      "task_id": "api-routes.signed_url_redirect.001",
+      "category": "api-routes",
+      "source_url": "https://aws.amazon.com/blogs/aws/amazon-s3-presigned-urls/",
+      "status": "err:HTTPError",
+      "issue": "broken-source-url"
+    },
+    {
+      "task_id": "api-routes.proxy_pass.001",
+      "category": "api-routes",
+      "source_url": "https://nextjs.org/docs/app/building-your-application/routing/route-handlers",
+      "status": "err:HTTPError",
+      "issue": "broken-source-url"
+    },
+    {
+      "task_id": "auth.resource_owner.001",
+      "category": "auth",
+      "source_url": "https://owasp.org/www-community/Broken_Object_Level_Authorization",
+      "status": "err:HTTPError",
+      "issue": "broken-source-url"
+    },
+    {
+      "task_id": "auth.session_check_redirect.001",
+      "category": "auth",
+      "source_url": "https://nextjs.org/docs/app/building-your-application/authentication",
+      "status": "err:HTTPError",
+      "issue": "broken-source-url"
+    },
+    {
+      "task_id": "auth.magic_link_send.001",
+      "category": "auth",
+      "source_url": "https://lucia-auth.com/guides/email-and-password/email-verification",
+      "status": "err:HTTPError",
+      "issue": "broken-source-url"
+    },
+    {
+      "task_id": "auth.password_reset_token.001",
+      "category": "auth",
+      "source_url": "https://owasp.org/www-community/Forgot_Password_Cheat_Sheet",
+      "status": "err:HTTPError",
+      "issue": "broken-source-url"
+    },
+    {
+      "task_id": "auth.email_verification.001",
+      "category": "auth",
+      "source_url": "https://lucia-auth.com/guides/email-and-password/email-verification",
+      "status": "err:HTTPError",
+      "issue": "broken-source-url"
+    },
+    {
+      "task_id": "auth.role_gate_admin.001",
+      "category": "auth",
+      "source_url": "https://nextjs.org/docs/app/building-your-application/authentication",
+      "status": "err:HTTPError",
+      "issue": "broken-source-url"
+    },
+    {
+      "task_id": "auth.permission_helper.001",
+      "category": "auth",
+      "source_url": "https://owasp.org/www-community/Broken_Object_Level_Authorization",
+      "status": "err:HTTPError",
+      "issue": "broken-source-url"
+    },
+    {
+      "task_id": "database.connection_pool_singleton.001",
+      "category": "database",
+      "source_url": "https://www.prisma.io/docs/orm/more/help-and-troubleshooting/help-articles/nextjs-prisma-client-dev-practices",
+      "status": "err:HTTPError",
+      "issue": "broken-source-url"
+    },
+    {
+      "task_id": "middleware.locale_redirect.001",
+      "category": "middleware",
+      "source_url": "https://nextjs.org/docs/app/building-your-application/routing/internationalization",
+      "status": "err:HTTPError",
+      "issue": "broken-source-url"
+    },
+    {
+      "task_id": "middleware.bot_block.001",
+      "category": "middleware",
+      "source_url": "https://nextjs.org/docs/app/building-your-application/routing/middleware",
+      "status": "err:HTTPError",
+      "issue": "broken-source-url"
+    },
+    {
+      "task_id": "middleware.maintenance_mode.001",
+      "category": "middleware",
+      "source_url": "https://nextjs.org/docs/app/building-your-application/routing/middleware",
+      "status": "err:HTTPError",
+      "issue": "broken-source-url"
+    },
+    {
+      "task_id": "middleware.api_key_validation.001",
+      "category": "middleware",
+      "source_url": "https://nextjs.org/docs/app/building-your-application/routing/middleware",
+      "status": "err:HTTPError",
+      "issue": "broken-source-url"
+    },
+    {
+      "task_id": "middleware.session_refresh.001",
+      "category": "middleware",
+      "source_url": "https://lucia-auth.com/sessions/cookies",
+      "status": "err:HTTPError",
+      "issue": "broken-source-url"
+    },
+    {
+      "task_id": "middleware.ab_test_assignment.001",
+      "category": "middleware",
+      "source_url": "https://nextjs.org/docs/app/building-your-application/routing/middleware",
+      "status": "err:HTTPError",
+      "issue": "broken-source-url"
+    },
+    {
+      "task_id": "middleware.geoblock_country.001",
+      "category": "middleware",
+      "source_url": "https://vercel.com/docs/edge-network/headers/request-headers",
+      "status": "err:HTTPError",
+      "issue": "broken-source-url"
+    },
+    {
+      "task_id": "middleware.observability_log.001",
+      "category": "middleware",
+      "source_url": "https://nextjs.org/docs/app/building-your-application/routing/middleware",
+      "status": "err:HTTPError",
+      "issue": "broken-source-url"
+    },
+    {
+      "task_id": "middleware.feature_flag_routing.001",
+      "category": "middleware",
+      "source_url": "https://nextjs.org/docs/app/building-your-application/routing/middleware",
+      "status": "err:HTTPError",
+      "issue": "broken-source-url"
+    },
+    {
+      "task_id": "nextjs.fetch_no_store.001",
+      "category": "nextjs",
+      "source_url": "https://nextjs.org/docs/app/building-your-application/caching",
+      "status": "err:URLError",
+      "issue": "broken-source-url"
+    },
+    {
+      "task_id": "nextjs.draft_mode.001",
+      "category": "nextjs",
+      "source_url": "https://nextjs.org/docs/app/api-reference/functions/draftMode",
+      "status": "err:HTTPError",
+      "issue": "broken-source-url"
+    },
+    {
+      "task_id": "nextjs.parallel_suspense.001",
+      "category": "nextjs",
+      "source_url": "https://nextjs.org/docs/app/building-your-application/routing/loading-ui-and-streaming",
+      "status": "err:HTTPError",
+      "issue": "broken-source-url"
+    },
+    {
+      "task_id": "nextjs.error_boundary_recovery.001",
+      "category": "nextjs",
+      "source_url": "https://nextjs.org/docs/app/building-your-application/routing/error-handling",
+      "status": "err:HTTPError",
+      "issue": "broken-source-url"
+    },
+    {
+      "task_id": "nextjs.locale_segment_param.001",
+      "category": "nextjs",
+      "source_url": "https://nextjs.org/docs/app/building-your-application/routing/internationalization",
+      "status": "err:HTTPError",
+      "issue": "broken-source-url"
+    },
+    {
+      "task_id": "nextjs.search_params_zod.001",
+      "category": "nextjs",
+      "source_url": "https://zod.dev/?id=safeparse",
+      "status": "err:HTTPError",
+      "issue": "broken-source-url"
+    },
+    {
+      "task_id": "nextjs.error_boundary_segment.001",
+      "category": "nextjs",
+      "source_url": "https://nextjs.org/docs/app/building-your-application/routing/error-handling",
+      "status": "err:HTTPError",
+      "issue": "broken-source-url"
+    },
+    {
+      "task_id": "nextjs.template_tsx.001",
+      "category": "nextjs",
+      "source_url": "https://nextjs.org/docs/app/building-your-application/routing/template",
+      "status": "err:HTTPError",
+      "issue": "broken-source-url"
+    },
+    {
+      "task_id": "nextjs.global_error.001",
+      "category": "nextjs",
+      "source_url": "https://nextjs.org/docs/app/building-your-application/routing/error-handling#handling-global-errors",
+      "status": "err:HTTPError",
+      "issue": "broken-source-url"
+    },
+    {
+      "task_id": "nextjs.catch_all_route.001",
+      "category": "nextjs",
+      "source_url": "https://nextjs.org/docs/app/building-your-application/routing/dynamic-routes#catch-all-segments",
+      "status": "err:HTTPError",
+      "issue": "broken-source-url"
+    },
+    {
+      "task_id": "nextjs.optional_catch_all.001",
+      "category": "nextjs",
+      "source_url": "https://nextjs.org/docs/app/building-your-application/routing/dynamic-routes#optional-catch-all-segments",
+      "status": "err:HTTPError",
+      "issue": "broken-source-url"
+    },
+    {
+      "task_id": "nextjs.middleware_matcher_advanced.001",
+      "category": "nextjs",
+      "source_url": "https://nextjs.org/docs/app/building-your-application/routing/middleware#matcher",
+      "status": "err:HTTPError",
+      "issue": "broken-source-url"
+    },
+    {
+      "task_id": "nextjs.intercepting_route_layout.001",
+      "category": "nextjs",
+      "source_url": "https://nextjs.org/docs/app/building-your-application/routing/parallel-routes",
+      "status": "err:HTTPError",
+      "issue": "broken-source-url"
+    },
+    {
+      "task_id": "nextjs.route_group_layout.001",
+      "category": "nextjs",
+      "source_url": "https://nextjs.org/docs/app/building-your-application/routing/route-groups",
+      "status": "err:HTTPError",
+      "issue": "broken-source-url"
+    },
+    {
+      "task_id": "performance.dynamic_import_client.001",
+      "category": "performance",
+      "source_url": "https://nextjs.org/docs/app/building-your-application/optimizing/lazy-loading",
+      "status": "err:HTTPError",
+      "issue": "broken-source-url"
+    },
+    {
+      "task_id": "performance.next_font_subset.001",
+      "category": "performance",
+      "source_url": "https://nextjs.org/docs/app/building-your-application/optimizing/fonts",
+      "status": "err:HTTPError",
+      "issue": "broken-source-url"
+    },
+    {
+      "task_id": "react.use_form_state.001",
+      "category": "react",
+      "source_url": "https://react.dev/reference/react-dom/hooks/useFormState",
+      "status": "err:HTTPError",
+      "issue": "broken-source-url"
+    },
+    {
+      "task_id": "react.click_outside_hook.001",
+      "category": "react",
+      "source_url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/contains",
+      "status": "err:HTTPError",
+      "issue": "broken-source-url"
+    },
+    {
+      "task_id": "react.compound_component.001",
+      "category": "react",
+      "source_url": "https://kentcdodds.com/blog/compound-components-with-react-hooks",
+      "status": "err:timeout",
+      "issue": "broken-source-url"
+    },
+    {
+      "task_id": "server-actions.zod_field_errors.001",
+      "category": "server-actions",
+      "source_url": "https://zod.dev/?id=safeparse",
+      "status": "err:HTTPError",
+      "issue": "broken-source-url"
+    },
+    {
+      "task_id": "server-actions.audit_log.001",
+      "category": "server-actions",
+      "source_url": "https://owasp.org/www-community/Logging_Cheat_Sheet",
+      "status": "err:HTTPError",
+      "issue": "broken-source-url"
+    },
+    {
+      "task_id": "server-actions.rate_limited.001",
+      "category": "server-actions",
+      "source_url": "https://upstash.com/docs/oss/sdks/ts/ratelimit/overview",
+      "status": "err:HTTPError",
+      "issue": "broken-source-url"
+    },
+    {
+      "task_id": "server-actions.composed_actions.001",
+      "category": "server-actions",
+      "source_url": "https://nextjs.org/docs/app/building-your-application/data-fetching/server-actions-and-mutations",
+      "status": "err:HTTPError",
+      "issue": "broken-source-url"
+    },
+    {
+      "task_id": "server-actions.file_persist.001",
+      "category": "server-actions",
+      "source_url": "https://vercel.com/docs/storage/vercel-blob/server-upload",
+      "status": "err:HTTPError",
+      "issue": "broken-source-url"
+    },
+    {
+      "task_id": "server-actions.zod_discriminated.001",
+      "category": "server-actions",
+      "source_url": "https://zod.dev/?id=discriminated-unions",
+      "status": "err:HTTPError",
+      "issue": "broken-source-url"
+    },
+    {
+      "task_id": "server-actions.signed_in_wrapper.001",
+      "category": "server-actions",
+      "source_url": "https://www.totaltypescript.com/concepts/generic-functions",
+      "status": "err:HTTPError",
+      "issue": "broken-source-url"
+    },
+    {
+      "task_id": "server-actions.session_extend.001",
+      "category": "server-actions",
+      "source_url": "https://lucia-auth.com/sessions/cookies",
+      "status": "err:HTTPError",
+      "issue": "broken-source-url"
+    }
+  ],
+  "schema": [
+    {
+      "task_id": "api-routes.auth_gated.026",
+      "category": "api-routes",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "api-routes.auth_gated.029",
+      "category": "api-routes",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "api-routes.delete_route.035",
+      "category": "api-routes",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "api-routes.get_list.002",
+      "category": "api-routes",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "api-routes.get_list.004",
+      "category": "api-routes",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "api-routes.get_list.006",
+      "category": "api-routes",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "api-routes.get_list.007",
+      "category": "api-routes",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "api-routes.get_single.010",
+      "category": "api-routes",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "api-routes.get_single.012",
+      "category": "api-routes",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "api-routes.get_single.014",
+      "category": "api-routes",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "api-routes.patch_route.034",
+      "category": "api-routes",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "api-routes.post_create.015",
+      "category": "api-routes",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "api-routes.post_create.017",
+      "category": "api-routes",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "api-routes.post_create.019",
+      "category": "api-routes",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "api-routes.rate_limit.031",
+      "category": "api-routes",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "api-routes.rate_limit.032",
+      "category": "api-routes",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "api-routes.stream_response.036",
+      "category": "api-routes",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "api-routes.webhook.021",
+      "category": "api-routes",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "api-routes.webhook.022",
+      "category": "api-routes",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "auth.credentials_provider.019",
+      "category": "auth",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "auth.handlers_reexport.005",
+      "category": "auth",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "auth.jwt_callback.018",
+      "category": "auth",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "auth.magic_link_provider.020",
+      "category": "auth",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "auth.middleware.010",
+      "category": "auth",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "auth.middleware.011",
+      "category": "auth",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "auth.middleware.012",
+      "category": "auth",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "auth.nextauth_config.001",
+      "category": "auth",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "auth.nextauth_config.004",
+      "category": "auth",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "auth.protected_component.007",
+      "category": "auth",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "auth.protected_component.009",
+      "category": "auth",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "auth.role_guard.013",
+      "category": "auth",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "auth.role_guard.014",
+      "category": "auth",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "auth.role_guard.015",
+      "category": "auth",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "auth.session_callback.017",
+      "category": "auth",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "auth.signin_page.016",
+      "category": "auth",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "auth.signup_action.021",
+      "category": "auth",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "database.drizzle_insert.025",
+      "category": "database",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "database.drizzle_query.020",
+      "category": "database",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "database.drizzle_relations.024",
+      "category": "database",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "database.drizzle_schema.018",
+      "category": "database",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "database.drizzle_schema.019",
+      "category": "database",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "database.prisma_count.027",
+      "category": "database",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "database.prisma_model.001",
+      "category": "database",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "database.prisma_model.005",
+      "category": "database",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "database.prisma_model.006",
+      "category": "database",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "database.prisma_model.008",
+      "category": "database",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "database.prisma_model.010",
+      "category": "database",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "database.prisma_relations.013",
+      "category": "database",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "database.prisma_relations.014",
+      "category": "database",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "database.prisma_search.023",
+      "category": "database",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "database.prisma_singleton.011",
+      "category": "database",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "database.prisma_upsert.026",
+      "category": "database",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "form.address_form.016",
+      "category": "form",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "form.comment_thread_form.019",
+      "category": "form",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "form.contact_controlled.001",
+      "category": "form",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "form.create_event_form.014",
+      "category": "form",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "form.create_invoice_form.015",
+      "category": "form",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "form.create_post_form.012",
+      "category": "form",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "form.create_product_form.011",
+      "category": "form",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "form.create_task_form.013",
+      "category": "form",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "form.feedback_form.017",
+      "category": "form",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "form.file_upload.009",
+      "category": "form",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "form.multi_step.010",
+      "category": "form",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "form.newsletter_form.018",
+      "category": "form",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "form.rhf_signup.003",
+      "category": "form",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "form.search.008",
+      "category": "form",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "form.use_form_status.005",
+      "category": "form",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "form.use_form_status.007",
+      "category": "form",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "hooks.useClickOutside.005",
+      "category": "hooks",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "hooks.useCopyToClipboard.013",
+      "category": "hooks",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "hooks.useCounter.009",
+      "category": "hooks",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "hooks.useDarkMode.019",
+      "category": "hooks",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "hooks.useDebounce.002",
+      "category": "hooks",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "hooks.useEventListener.014",
+      "category": "hooks",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "hooks.useFetch.004",
+      "category": "hooks",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "hooks.useFocus.017",
+      "category": "hooks",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "hooks.useHover.016",
+      "category": "hooks",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "hooks.useIdle.025",
+      "category": "hooks",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "hooks.useIntersectionObserver.015",
+      "category": "hooks",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "hooks.useInterval.006",
+      "category": "hooks",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "hooks.useIsOnline.022",
+      "category": "hooks",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "hooks.useKeyPress.012",
+      "category": "hooks",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "hooks.useLocalStorage.003",
+      "category": "hooks",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "hooks.useMediaQuery.007",
+      "category": "hooks",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "hooks.usePagination.027",
+      "category": "hooks",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "hooks.usePrevious.008",
+      "category": "hooks",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "hooks.useReducerForm.024",
+      "category": "hooks",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "hooks.useScrollPosition.023",
+      "category": "hooks",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "hooks.useSession.026",
+      "category": "hooks",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "hooks.useSessionStorage.020",
+      "category": "hooks",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "hooks.useStep.010",
+      "category": "hooks",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "hooks.useTimeout.021",
+      "category": "hooks",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "hooks.useWindowSize.011",
+      "category": "hooks",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "nextjs.dynamic_page.002",
+      "category": "nextjs",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "nextjs.dynamic_page.003",
+      "category": "nextjs",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "nextjs.dynamic_page.007",
+      "category": "nextjs",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "nextjs.dynamic_page.009",
+      "category": "nextjs",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "nextjs.error_boundary.024",
+      "category": "nextjs",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "nextjs.error_boundary.026",
+      "category": "nextjs",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "nextjs.generate_metadata.038",
+      "category": "nextjs",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "nextjs.generate_metadata.039",
+      "category": "nextjs",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "nextjs.home_page.001",
+      "category": "nextjs",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "nextjs.intercepting_route.046",
+      "category": "nextjs",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "nextjs.layout_metadata.012",
+      "category": "nextjs",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "nextjs.layout_metadata.013",
+      "category": "nextjs",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "nextjs.layout_metadata.015",
+      "category": "nextjs",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "nextjs.loading.016",
+      "category": "nextjs",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "nextjs.loading.017",
+      "category": "nextjs",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "nextjs.loading.019",
+      "category": "nextjs",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "nextjs.og_image.042",
+      "category": "nextjs",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "nextjs.og_image.043",
+      "category": "nextjs",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "nextjs.og_image.044",
+      "category": "nextjs",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "nextjs.parallel_routes.045",
+      "category": "nextjs",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "nextjs.protected_page.041",
+      "category": "nextjs",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "nextjs.robots_route.047",
+      "category": "nextjs",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "nextjs.search_params.034",
+      "category": "nextjs",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "nextjs.search_params.035",
+      "category": "nextjs",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "nextjs.search_params.036",
+      "category": "nextjs",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "nextjs.sitemap_route.048",
+      "category": "nextjs",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "payments.cashfree_order.006",
+      "category": "payments",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "payments.checkout_button.018",
+      "category": "payments",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "payments.dodo_checkout.015",
+      "category": "payments",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "payments.lemonsqueezy_checkout.007",
+      "category": "payments",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "payments.lemonsqueezy_webhook.017",
+      "category": "payments",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "payments.paddle_checkout.014",
+      "category": "payments",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "payments.razorpay_order.013",
+      "category": "payments",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "payments.stripe_customer_create.016",
+      "category": "payments",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "payments.stripe_payment.004",
+      "category": "payments",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "payments.stripe_portal.010",
+      "category": "payments",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "payments.stripe_portal.011",
+      "category": "payments",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "payments.stripe_portal.012",
+      "category": "payments",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "payments.stripe_subscription.001",
+      "category": "payments",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "payments.stripe_subscription.002",
+      "category": "payments",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "payments.stripe_subscription.003",
+      "category": "payments",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "payments.stripe_webhook.005",
+      "category": "payments",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "payments.subscription_card.019",
+      "category": "payments",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "payments.subscription_status.008",
+      "category": "payments",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "react.avatar.021",
+      "category": "react",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "react.breadcrumbs.033",
+      "category": "react",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "react.card.014",
+      "category": "react",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "react.card.015",
+      "category": "react",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "react.card.016",
+      "category": "react",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "react.card.017",
+      "category": "react",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "react.card.018",
+      "category": "react",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "react.combobox.027",
+      "category": "react",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "react.confirm_dialog.032",
+      "category": "react",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "react.copy.001",
+      "category": "react",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "react.copy.004",
+      "category": "react",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "react.counter.007",
+      "category": "react",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "react.counter.009",
+      "category": "react",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "react.data_table.034",
+      "category": "react",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "react.dropdown_menu.039",
+      "category": "react",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "react.empty_state.022",
+      "category": "react",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "react.empty_state.023",
+      "category": "react",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "react.empty_state.024",
+      "category": "react",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "react.empty_state.025",
+      "category": "react",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "react.icon_button.038",
+      "category": "react",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "react.modal_basic.019",
+      "category": "react",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "react.pagination.026",
+      "category": "react",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "react.skeleton.028",
+      "category": "react",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "react.skeleton.029",
+      "category": "react",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "react.skeleton.030",
+      "category": "react",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "react.skeleton.031",
+      "category": "react",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "react.spinner.035",
+      "category": "react",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "react.tabs_active_content.020",
+      "category": "react",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "react.toggle.010",
+      "category": "react",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "react.toggle.011",
+      "category": "react",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "react.toggle.012",
+      "category": "react",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "react.toggle.013",
+      "category": "react",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "react.tooltip.037",
+      "category": "react",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "server-actions.archive.025",
+      "category": "server-actions",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "server-actions.archive.026",
+      "category": "server-actions",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "server-actions.archive.027",
+      "category": "server-actions",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "server-actions.archive.028",
+      "category": "server-actions",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "server-actions.archive.029",
+      "category": "server-actions",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "server-actions.archive.030",
+      "category": "server-actions",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "server-actions.create_zod.001",
+      "category": "server-actions",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "server-actions.create_zod.002",
+      "category": "server-actions",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "server-actions.create_zod.003",
+      "category": "server-actions",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "server-actions.create_zod.004",
+      "category": "server-actions",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "server-actions.create_zod.005",
+      "category": "server-actions",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "server-actions.create_zod.006",
+      "category": "server-actions",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "server-actions.create_zod.007",
+      "category": "server-actions",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "server-actions.create_zod.008",
+      "category": "server-actions",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "server-actions.create_zod.009",
+      "category": "server-actions",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "server-actions.create_zod.010",
+      "category": "server-actions",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "server-actions.delete.019",
+      "category": "server-actions",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "server-actions.delete.020",
+      "category": "server-actions",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "server-actions.delete.021",
+      "category": "server-actions",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "server-actions.delete.022",
+      "category": "server-actions",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "server-actions.delete.023",
+      "category": "server-actions",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "server-actions.delete.024",
+      "category": "server-actions",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "server-actions.formdata.031",
+      "category": "server-actions",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "server-actions.formdata.032",
+      "category": "server-actions",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "server-actions.formdata.033",
+      "category": "server-actions",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "server-actions.formdata.034",
+      "category": "server-actions",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "server-actions.transaction.035",
+      "category": "server-actions",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "server-actions.transaction.036",
+      "category": "server-actions",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "server-actions.transaction.037",
+      "category": "server-actions",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "server-actions.transaction.038",
+      "category": "server-actions",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "server-actions.update_zod.011",
+      "category": "server-actions",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "server-actions.update_zod.012",
+      "category": "server-actions",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "server-actions.update_zod.013",
+      "category": "server-actions",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "server-actions.update_zod.014",
+      "category": "server-actions",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "server-actions.update_zod.015",
+      "category": "server-actions",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "server-actions.update_zod.016",
+      "category": "server-actions",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "server-actions.update_zod.017",
+      "category": "server-actions",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "server-actions.update_zod.018",
+      "category": "server-actions",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "tailwind.alert_variant.013",
+      "category": "tailwind",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "tailwind.alert_variant.014",
+      "category": "tailwind",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "tailwind.alert_variant.015",
+      "category": "tailwind",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "tailwind.alert_variant.016",
+      "category": "tailwind",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "tailwind.blog_card.019",
+      "category": "tailwind",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "tailwind.card_grid.025",
+      "category": "tailwind",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "tailwind.command_palette.022",
+      "category": "tailwind",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "tailwind.cta_section.020",
+      "category": "tailwind",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "tailwind.feature_grid.018",
+      "category": "tailwind",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "tailwind.footer_grid.007",
+      "category": "tailwind",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "tailwind.hero.001",
+      "category": "tailwind",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "tailwind.hero.002",
+      "category": "tailwind",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "tailwind.hero.003",
+      "category": "tailwind",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "tailwind.hero.004",
+      "category": "tailwind",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "tailwind.hero.005",
+      "category": "tailwind",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "tailwind.navbar_responsive.006",
+      "category": "tailwind",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "tailwind.pricing_card.008",
+      "category": "tailwind",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "tailwind.pricing_card.009",
+      "category": "tailwind",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "tailwind.pricing_card.010",
+      "category": "tailwind",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "tailwind.pricing_card.011",
+      "category": "tailwind",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "tailwind.settings_layout.024",
+      "category": "tailwind",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "tailwind.stats_bar.012",
+      "category": "tailwind",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "tailwind.stats_dashboard.021",
+      "category": "tailwind",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "tailwind.table_responsive.026",
+      "category": "tailwind",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "tailwind.testimonial.017",
+      "category": "tailwind",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "typescript.awaited_simple.018",
+      "category": "typescript",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "typescript.branded_id.027",
+      "category": "typescript",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "typescript.deep_partial.014",
+      "category": "typescript",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "typescript.deep_readonly.021",
+      "category": "typescript",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "typescript.discriminated_union.009",
+      "category": "typescript",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "typescript.exclude_keys.023",
+      "category": "typescript",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "typescript.extract_array_element.024",
+      "category": "typescript",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "typescript.function_args.025",
+      "category": "typescript",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "typescript.function_return.026",
+      "category": "typescript",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "typescript.infer_values.019",
+      "category": "typescript",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "typescript.interface.001",
+      "category": "typescript",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "typescript.interface.003",
+      "category": "typescript",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "typescript.interface.005",
+      "category": "typescript",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "typescript.interface.006",
+      "category": "typescript",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "typescript.non_nullable.015",
+      "category": "typescript",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "typescript.pick_by_value.017",
+      "category": "typescript",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "typescript.readonly_partial.016",
+      "category": "typescript",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "typescript.result_type.020",
+      "category": "typescript",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "typescript.type_guard.010",
+      "category": "typescript",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "typescript.type_guard.011",
+      "category": "typescript",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "typescript.type_guard.012",
+      "category": "typescript",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "typescript.type_guard.013",
+      "category": "typescript",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "typescript.typed_event_emitter.022",
+      "category": "typescript",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "utils.assert_unreachable.027",
+      "category": "utils",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "utils.build_query_string.022",
+      "category": "utils",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "utils.capitalize.020",
+      "category": "utils",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "utils.chunk.004",
+      "category": "utils",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "utils.clamp.009",
+      "category": "utils",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "utils.cn.012",
+      "category": "utils",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "utils.deep_clone.024",
+      "category": "utils",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "utils.format_currency.015",
+      "category": "utils",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "utils.format_date.016",
+      "category": "utils",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "utils.format_relative_time.002",
+      "category": "utils",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "utils.groupby.005",
+      "category": "utils",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "utils.is_browser.014",
+      "category": "utils",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "utils.is_valid_email.017",
+      "category": "utils",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "utils.is_valid_url.018",
+      "category": "utils",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "utils.memoize.026",
+      "category": "utils",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "utils.noop.023",
+      "category": "utils",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "utils.parse_query_string.021",
+      "category": "utils",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "utils.retry.006",
+      "category": "utils",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "utils.sleep.011",
+      "category": "utils",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "utils.truncate.019",
+      "category": "utils",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "utils.typed_env.013",
+      "category": "utils",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    },
+    {
+      "task_id": "utils.unique.010",
+      "category": "utils",
+      "missing_required": [],
+      "missing_recommended": [
+        "source_url"
+      ],
+      "issue": "schema-recommendation"
+    }
+  ],
+  "tags": [
+    {
+      "task_id": "auth.middleware.010",
+      "category": "auth",
+      "tags": [
+        "typescript"
+      ],
+      "issue": "too-few-tags"
+    },
+    {
+      "task_id": "auth.middleware.011",
+      "category": "auth",
+      "tags": [
+        "typescript"
+      ],
+      "issue": "too-few-tags"
+    },
+    {
+      "task_id": "auth.middleware.012",
+      "category": "auth",
+      "tags": [
+        "typescript"
+      ],
+      "issue": "too-few-tags"
+    },
+    {
+      "task_id": "auth.protected_component.007",
+      "category": "auth",
+      "tags": [
+        "typescript"
+      ],
+      "issue": "too-few-tags"
+    },
+    {
+      "task_id": "auth.protected_component.009",
+      "category": "auth",
+      "tags": [
+        "typescript"
+      ],
+      "issue": "too-few-tags"
+    },
+    {
+      "task_id": "auth.role_guard.013",
+      "category": "auth",
+      "tags": [
+        "typescript"
+      ],
+      "issue": "too-few-tags"
+    },
+    {
+      "task_id": "auth.role_guard.014",
+      "category": "auth",
+      "tags": [
+        "typescript"
+      ],
+      "issue": "too-few-tags"
+    },
+    {
+      "task_id": "auth.role_guard.015",
+      "category": "auth",
+      "tags": [
+        "typescript"
+      ],
+      "issue": "too-few-tags"
+    },
+    {
+      "task_id": "auth.signin_page.016",
+      "category": "auth",
+      "tags": [
+        "typescript"
+      ],
+      "issue": "too-few-tags"
+    },
+    {
+      "task_id": "payments.lemonsqueezy_webhook.017",
+      "category": "payments",
+      "tags": [
+        "typescript"
+      ],
+      "issue": "too-few-tags"
+    },
+    {
+      "task_id": "payments.subscription_card.019",
+      "category": "payments",
+      "tags": [
+        "typescript"
+      ],
+      "issue": "too-few-tags"
+    },
+    {
+      "task_id": "payments.subscription_status.008",
+      "category": "payments",
+      "tags": [
+        "typescript"
+      ],
+      "issue": "too-few-tags"
+    },
+    {
+      "task_id": "react.avatar.021",
+      "category": "react",
+      "tags": [
+        "typescript"
+      ],
+      "issue": "too-few-tags"
+    },
+    {
+      "task_id": "react.breadcrumbs.033",
+      "category": "react",
+      "tags": [
+        "typescript"
+      ],
+      "issue": "too-few-tags"
+    },
+    {
+      "task_id": "react.card.014",
+      "category": "react",
+      "tags": [
+        "typescript"
+      ],
+      "issue": "too-few-tags"
+    },
+    {
+      "task_id": "react.card.015",
+      "category": "react",
+      "tags": [
+        "typescript"
+      ],
+      "issue": "too-few-tags"
+    },
+    {
+      "task_id": "react.card.016",
+      "category": "react",
+      "tags": [
+        "typescript"
+      ],
+      "issue": "too-few-tags"
+    },
+    {
+      "task_id": "react.card.017",
+      "category": "react",
+      "tags": [
+        "typescript"
+      ],
+      "issue": "too-few-tags"
+    },
+    {
+      "task_id": "react.card.018",
+      "category": "react",
+      "tags": [
+        "typescript"
+      ],
+      "issue": "too-few-tags"
+    },
+    {
+      "task_id": "react.empty_state.022",
+      "category": "react",
+      "tags": [
+        "typescript"
+      ],
+      "issue": "too-few-tags"
+    },
+    {
+      "task_id": "react.empty_state.023",
+      "category": "react",
+      "tags": [
+        "typescript"
+      ],
+      "issue": "too-few-tags"
+    },
+    {
+      "task_id": "react.empty_state.024",
+      "category": "react",
+      "tags": [
+        "typescript"
+      ],
+      "issue": "too-few-tags"
+    },
+    {
+      "task_id": "react.empty_state.025",
+      "category": "react",
+      "tags": [
+        "typescript"
+      ],
+      "issue": "too-few-tags"
+    },
+    {
+      "task_id": "react.skeleton.028",
+      "category": "react",
+      "tags": [
+        "typescript"
+      ],
+      "issue": "too-few-tags"
+    },
+    {
+      "task_id": "react.skeleton.029",
+      "category": "react",
+      "tags": [
+        "typescript"
+      ],
+      "issue": "too-few-tags"
+    },
+    {
+      "task_id": "react.skeleton.030",
+      "category": "react",
+      "tags": [
+        "typescript"
+      ],
+      "issue": "too-few-tags"
+    },
+    {
+      "task_id": "react.skeleton.031",
+      "category": "react",
+      "tags": [
+        "typescript"
+      ],
+      "issue": "too-few-tags"
+    },
+    {
+      "task_id": "react.spinner.035",
+      "category": "react",
+      "tags": [
+        "typescript"
+      ],
+      "issue": "too-few-tags"
+    },
+    {
+      "task_id": "typescript.awaited_simple.018",
+      "category": "typescript",
+      "tags": [
+        "typescript"
+      ],
+      "issue": "too-few-tags"
+    },
+    {
+      "task_id": "typescript.branded_id.027",
+      "category": "typescript",
+      "tags": [
+        "typescript"
+      ],
+      "issue": "too-few-tags"
+    },
+    {
+      "task_id": "typescript.deep_partial.014",
+      "category": "typescript",
+      "tags": [
+        "typescript"
+      ],
+      "issue": "too-few-tags"
+    },
+    {
+      "task_id": "typescript.deep_readonly.021",
+      "category": "typescript",
+      "tags": [
+        "typescript"
+      ],
+      "issue": "too-few-tags"
+    },
+    {
+      "task_id": "typescript.discriminated_union.009",
+      "category": "typescript",
+      "tags": [
+        "typescript"
+      ],
+      "issue": "too-few-tags"
+    },
+    {
+      "task_id": "typescript.exclude_keys.023",
+      "category": "typescript",
+      "tags": [
+        "typescript"
+      ],
+      "issue": "too-few-tags"
+    },
+    {
+      "task_id": "typescript.extract_array_element.024",
+      "category": "typescript",
+      "tags": [
+        "typescript"
+      ],
+      "issue": "too-few-tags"
+    },
+    {
+      "task_id": "typescript.function_args.025",
+      "category": "typescript",
+      "tags": [
+        "typescript"
+      ],
+      "issue": "too-few-tags"
+    },
+    {
+      "task_id": "typescript.function_return.026",
+      "category": "typescript",
+      "tags": [
+        "typescript"
+      ],
+      "issue": "too-few-tags"
+    },
+    {
+      "task_id": "typescript.interface.001",
+      "category": "typescript",
+      "tags": [
+        "typescript"
+      ],
+      "issue": "too-few-tags"
+    },
+    {
+      "task_id": "typescript.interface.003",
+      "category": "typescript",
+      "tags": [
+        "typescript"
+      ],
+      "issue": "too-few-tags"
+    },
+    {
+      "task_id": "typescript.interface.005",
+      "category": "typescript",
+      "tags": [
+        "typescript"
+      ],
+      "issue": "too-few-tags"
+    },
+    {
+      "task_id": "typescript.interface.006",
+      "category": "typescript",
+      "tags": [
+        "typescript"
+      ],
+      "issue": "too-few-tags"
+    },
+    {
+      "task_id": "typescript.non_nullable.015",
+      "category": "typescript",
+      "tags": [
+        "typescript"
+      ],
+      "issue": "too-few-tags"
+    },
+    {
+      "task_id": "typescript.pick_by_value.017",
+      "category": "typescript",
+      "tags": [
+        "typescript"
+      ],
+      "issue": "too-few-tags"
+    },
+    {
+      "task_id": "typescript.readonly_partial.016",
+      "category": "typescript",
+      "tags": [
+        "typescript"
+      ],
+      "issue": "too-few-tags"
+    },
+    {
+      "task_id": "typescript.result_type.020",
+      "category": "typescript",
+      "tags": [
+        "typescript"
+      ],
+      "issue": "too-few-tags"
+    },
+    {
+      "task_id": "typescript.type_guard.010",
+      "category": "typescript",
+      "tags": [
+        "typescript"
+      ],
+      "issue": "too-few-tags"
+    },
+    {
+      "task_id": "typescript.type_guard.011",
+      "category": "typescript",
+      "tags": [
+        "typescript"
+      ],
+      "issue": "too-few-tags"
+    },
+    {
+      "task_id": "typescript.type_guard.012",
+      "category": "typescript",
+      "tags": [
+        "typescript"
+      ],
+      "issue": "too-few-tags"
+    },
+    {
+      "task_id": "typescript.type_guard.013",
+      "category": "typescript",
+      "tags": [
+        "typescript"
+      ],
+      "issue": "too-few-tags"
+    },
+    {
+      "task_id": "typescript.typed_event_emitter.022",
+      "category": "typescript",
+      "tags": [
+        "typescript"
+      ],
+      "issue": "too-few-tags"
+    },
+    {
+      "task_id": "utils.assert_unreachable.027",
+      "category": "utils",
+      "tags": [
+        "typescript"
+      ],
+      "issue": "too-few-tags"
+    },
+    {
+      "task_id": "utils.build_query_string.022",
+      "category": "utils",
+      "tags": [
+        "typescript"
+      ],
+      "issue": "too-few-tags"
+    },
+    {
+      "task_id": "utils.capitalize.020",
+      "category": "utils",
+      "tags": [
+        "typescript"
+      ],
+      "issue": "too-few-tags"
+    },
+    {
+      "task_id": "utils.chunk.004",
+      "category": "utils",
+      "tags": [
+        "typescript"
+      ],
+      "issue": "too-few-tags"
+    },
+    {
+      "task_id": "utils.clamp.009",
+      "category": "utils",
+      "tags": [
+        "typescript"
+      ],
+      "issue": "too-few-tags"
+    },
+    {
+      "task_id": "utils.cn.012",
+      "category": "utils",
+      "tags": [
+        "typescript"
+      ],
+      "issue": "too-few-tags"
+    },
+    {
+      "task_id": "utils.deep_clone.024",
+      "category": "utils",
+      "tags": [
+        "typescript"
+      ],
+      "issue": "too-few-tags"
+    },
+    {
+      "task_id": "utils.format_currency.015",
+      "category": "utils",
+      "tags": [
+        "typescript"
+      ],
+      "issue": "too-few-tags"
+    },
+    {
+      "task_id": "utils.format_date.016",
+      "category": "utils",
+      "tags": [
+        "typescript"
+      ],
+      "issue": "too-few-tags"
+    },
+    {
+      "task_id": "utils.format_relative_time.002",
+      "category": "utils",
+      "tags": [
+        "typescript"
+      ],
+      "issue": "too-few-tags"
+    },
+    {
+      "task_id": "utils.groupby.005",
+      "category": "utils",
+      "tags": [
+        "typescript"
+      ],
+      "issue": "too-few-tags"
+    },
+    {
+      "task_id": "utils.is_browser.014",
+      "category": "utils",
+      "tags": [
+        "typescript"
+      ],
+      "issue": "too-few-tags"
+    },
+    {
+      "task_id": "utils.is_valid_email.017",
+      "category": "utils",
+      "tags": [
+        "typescript"
+      ],
+      "issue": "too-few-tags"
+    },
+    {
+      "task_id": "utils.is_valid_url.018",
+      "category": "utils",
+      "tags": [
+        "typescript"
+      ],
+      "issue": "too-few-tags"
+    },
+    {
+      "task_id": "utils.memoize.026",
+      "category": "utils",
+      "tags": [
+        "typescript"
+      ],
+      "issue": "too-few-tags"
+    },
+    {
+      "task_id": "utils.noop.023",
+      "category": "utils",
+      "tags": [
+        "typescript"
+      ],
+      "issue": "too-few-tags"
+    },
+    {
+      "task_id": "utils.parse_query_string.021",
+      "category": "utils",
+      "tags": [
+        "typescript"
+      ],
+      "issue": "too-few-tags"
+    },
+    {
+      "task_id": "utils.retry.006",
+      "category": "utils",
+      "tags": [
+        "typescript"
+      ],
+      "issue": "too-few-tags"
+    },
+    {
+      "task_id": "utils.sleep.011",
+      "category": "utils",
+      "tags": [
+        "typescript"
+      ],
+      "issue": "too-few-tags"
+    },
+    {
+      "task_id": "utils.truncate.019",
+      "category": "utils",
+      "tags": [
+        "typescript"
+      ],
+      "issue": "too-few-tags"
+    },
+    {
+      "task_id": "utils.unique.010",
+      "category": "utils",
+      "tags": [
+        "typescript"
+      ],
+      "issue": "too-few-tags"
+    },
+    {
+      "task_id": "<category:typescript>",
+      "category": "typescript",
+      "distinct_tags": [
+        "typescript",
+        "zod"
+      ],
+      "n_tasks": 23,
+      "issue": "thin-category-tag-coverage"
+    },
+    {
+      "task_id": "<category:utils>",
+      "category": "utils",
+      "distinct_tags": [
+        "typescript",
+        "zod"
+      ],
+      "n_tasks": 22,
+      "issue": "thin-category-tag-coverage"
+    }
+  ]
+}

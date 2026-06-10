@@ -1,0 +1,240 @@
+{"category": "api-routes", "subcategory": "auth_gated", "n_tasks": 5, "mean_prompt_jaccard": 0.889, "distinct_check_signatures": 1, "task_ids": ["api-routes.auth_gated.025", "api-routes.auth_gated.026", "api-routes.auth_gated.027", "api-routes.auth_gated.028", "api-routes.auth_gated.029"]}
+{"category": "api-routes", "subcategory": "delete_route", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["api-routes.delete_route.035"]}
+{"category": "api-routes", "subcategory": "edge_runtime", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["api-routes.edge_runtime.001"]}
+{"category": "api-routes", "subcategory": "file_upload_formdata", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["api-routes.file_upload_formdata.001"]}
+{"category": "api-routes", "subcategory": "form_data_parse", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["api-routes.form_data_parse.001"]}
+{"category": "api-routes", "subcategory": "geo_response", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["api-routes.geo_response.001"]}
+{"category": "api-routes", "subcategory": "get_list", "n_tasks": 8, "mean_prompt_jaccard": 0.895, "distinct_check_signatures": 8, "task_ids": ["api-routes.get_list.001", "api-routes.get_list.002", "api-routes.get_list.003", "api-routes.get_list.004", "api-routes.get_list.005", "api-routes.get_list.006", "api-routes.get_list.007", "api-routes.get_list.008"]}
+{"category": "api-routes", "subcategory": "get_single", "n_tasks": 6, "mean_prompt_jaccard": 0.909, "distinct_check_signatures": 6, "task_ids": ["api-routes.get_single.009", "api-routes.get_single.010", "api-routes.get_single.011", "api-routes.get_single.012", "api-routes.get_single.013", "api-routes.get_single.014"]}
+{"category": "api-routes", "subcategory": "patch_route", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["api-routes.patch_route.034"]}
+{"category": "api-routes", "subcategory": "post_create", "n_tasks": 6, "mean_prompt_jaccard": 0.926, "distinct_check_signatures": 6, "task_ids": ["api-routes.post_create.015", "api-routes.post_create.016", "api-routes.post_create.017", "api-routes.post_create.018", "api-routes.post_create.019", "api-routes.post_create.020"]}
+{"category": "api-routes", "subcategory": "rate_limit", "n_tasks": 4, "mean_prompt_jaccard": 0.873, "distinct_check_signatures": 1, "task_ids": ["api-routes.rate_limit.030", "api-routes.rate_limit.031", "api-routes.rate_limit.032", "api-routes.rate_limit.033"]}
+{"category": "api-routes", "subcategory": "signed_url_redirect", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["api-routes.signed_url_redirect.001"]}
+{"category": "api-routes", "subcategory": "stream_response", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["api-routes.stream_response.036"]}
+{"category": "api-routes", "subcategory": "streaming_response", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["api-routes.streaming_response.001"]}
+{"category": "api-routes", "subcategory": "webhook", "n_tasks": 4, "mean_prompt_jaccard": 0.869, "distinct_check_signatures": 4, "task_ids": ["api-routes.webhook.021", "api-routes.webhook.022", "api-routes.webhook.023", "api-routes.webhook.024"]}
+{"category": "api-routes", "subcategory": "webhook_signature_verify", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["api-routes.webhook_signature_verify.001"]}
+{"category": "auth", "subcategory": "credentials_provider", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["auth.credentials_provider.019"]}
+{"category": "auth", "subcategory": "handlers_reexport", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["auth.handlers_reexport.005"]}
+{"category": "auth", "subcategory": "jwt_callback", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["auth.jwt_callback.018"]}
+{"category": "auth", "subcategory": "magic_link_provider", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["auth.magic_link_provider.020"]}
+{"category": "auth", "subcategory": "middleware", "n_tasks": 3, "mean_prompt_jaccard": 1.0, "distinct_check_signatures": 1, "task_ids": ["auth.middleware.010", "auth.middleware.011", "auth.middleware.012"]}
+{"category": "auth", "subcategory": "nextauth_config", "n_tasks": 4, "mean_prompt_jaccard": 0.867, "distinct_check_signatures": 4, "task_ids": ["auth.nextauth_config.001", "auth.nextauth_config.002", "auth.nextauth_config.003", "auth.nextauth_config.004"]}
+{"category": "auth", "subcategory": "protected_component", "n_tasks": 4, "mean_prompt_jaccard": 0.765, "distinct_check_signatures": 1, "task_ids": ["auth.protected_component.006", "auth.protected_component.007", "auth.protected_component.008", "auth.protected_component.009"]}
+{"category": "auth", "subcategory": "resource_owner", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["auth.resource_owner.001"]}
+{"category": "auth", "subcategory": "role_guard", "n_tasks": 3, "mean_prompt_jaccard": 0.867, "distinct_check_signatures": 1, "task_ids": ["auth.role_guard.013", "auth.role_guard.014", "auth.role_guard.015"]}
+{"category": "auth", "subcategory": "session_callback", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["auth.session_callback.017"]}
+{"category": "auth", "subcategory": "session_check_redirect", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["auth.session_check_redirect.001"]}
+{"category": "auth", "subcategory": "signin_page", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["auth.signin_page.016"]}
+{"category": "auth", "subcategory": "signup_action", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["auth.signup_action.021"]}
+{"category": "database", "subcategory": "connection_pool_singleton", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["database.connection_pool_singleton.001"]}
+{"category": "database", "subcategory": "drizzle_insert", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["database.drizzle_insert.025"]}
+{"category": "database", "subcategory": "drizzle_query", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["database.drizzle_query.020"]}
+{"category": "database", "subcategory": "drizzle_relations", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["database.drizzle_relations.024"]}
+{"category": "database", "subcategory": "drizzle_schema", "n_tasks": 4, "mean_prompt_jaccard": 0.905, "distinct_check_signatures": 1, "task_ids": ["database.drizzle_schema.016", "database.drizzle_schema.017", "database.drizzle_schema.018", "database.drizzle_schema.019"]}
+{"category": "database", "subcategory": "prisma_aggregate", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["database.prisma_aggregate.028"]}
+{"category": "database", "subcategory": "prisma_count", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["database.prisma_count.027"]}
+{"category": "database", "subcategory": "prisma_count_groupby", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["database.prisma_count_groupby.001"]}
+{"category": "database", "subcategory": "prisma_cursor_pagination", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["database.prisma_cursor_pagination.001"]}
+{"category": "database", "subcategory": "prisma_model", "n_tasks": 10, "mean_prompt_jaccard": 0.6, "distinct_check_signatures": 1, "task_ids": ["database.prisma_model.001", "database.prisma_model.002", "database.prisma_model.003", "database.prisma_model.004", "database.prisma_model.005", "database.prisma_model.006", "database.prisma_model.007", "database.prisma_model.008", "database.prisma_model.009", "database.prisma_model.010"]}
+{"category": "database", "subcategory": "prisma_nested_create", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["database.prisma_nested_create.001"]}
+{"category": "database", "subcategory": "prisma_pagination", "n_tasks": 2, "mean_prompt_jaccard": 0.931, "distinct_check_signatures": 2, "task_ids": ["database.prisma_pagination.021", "database.prisma_pagination.022"]}
+{"category": "database", "subcategory": "prisma_relations", "n_tasks": 4, "mean_prompt_jaccard": 0.826, "distinct_check_signatures": 4, "task_ids": ["database.prisma_relations.012", "database.prisma_relations.013", "database.prisma_relations.014", "database.prisma_relations.015"]}
+{"category": "database", "subcategory": "prisma_search", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["database.prisma_search.023"]}
+{"category": "database", "subcategory": "prisma_singleton", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["database.prisma_singleton.011"]}
+{"category": "database", "subcategory": "prisma_transaction", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["database.prisma_transaction.001"]}
+{"category": "database", "subcategory": "prisma_upsert", "n_tasks": 2, "mean_prompt_jaccard": 0.455, "distinct_check_signatures": 2, "task_ids": ["database.prisma_upsert.026", "database.prisma_upsert.001"]}
+{"category": "form", "subcategory": "address_form", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["form.address_form.016"]}
+{"category": "form", "subcategory": "comment_thread_form", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["form.comment_thread_form.019"]}
+{"category": "form", "subcategory": "contact_controlled", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["form.contact_controlled.001"]}
+{"category": "form", "subcategory": "create_event_form", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["form.create_event_form.014"]}
+{"category": "form", "subcategory": "create_invoice_form", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["form.create_invoice_form.015"]}
+{"category": "form", "subcategory": "create_post_form", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["form.create_post_form.012"]}
+{"category": "form", "subcategory": "create_product_form", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["form.create_product_form.011"]}
+{"category": "form", "subcategory": "create_task_form", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["form.create_task_form.013"]}
+{"category": "form", "subcategory": "feedback_form", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["form.feedback_form.017"]}
+{"category": "form", "subcategory": "file_upload", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["form.file_upload.009"]}
+{"category": "form", "subcategory": "multi_step", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["form.multi_step.010"]}
+{"category": "form", "subcategory": "newsletter_form", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["form.newsletter_form.018"]}
+{"category": "form", "subcategory": "rhf_signin", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["form.rhf_signin.002"]}
+{"category": "form", "subcategory": "rhf_signup", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["form.rhf_signup.003"]}
+{"category": "form", "subcategory": "search", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["form.search.008"]}
+{"category": "form", "subcategory": "use_form_status", "n_tasks": 4, "mean_prompt_jaccard": 0.818, "distinct_check_signatures": 4, "task_ids": ["form.use_form_status.004", "form.use_form_status.005", "form.use_form_status.006", "form.use_form_status.007"]}
+{"category": "hooks", "subcategory": "useClickOutside", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["hooks.useClickOutside.005"]}
+{"category": "hooks", "subcategory": "useCopyToClipboard", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["hooks.useCopyToClipboard.013"]}
+{"category": "hooks", "subcategory": "useCounter", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["hooks.useCounter.009"]}
+{"category": "hooks", "subcategory": "useDarkMode", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["hooks.useDarkMode.019"]}
+{"category": "hooks", "subcategory": "useDebounce", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["hooks.useDebounce.002"]}
+{"category": "hooks", "subcategory": "useEventListener", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["hooks.useEventListener.014"]}
+{"category": "hooks", "subcategory": "useFetch", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["hooks.useFetch.004"]}
+{"category": "hooks", "subcategory": "useFocus", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["hooks.useFocus.017"]}
+{"category": "hooks", "subcategory": "useHover", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["hooks.useHover.016"]}
+{"category": "hooks", "subcategory": "useIdle", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["hooks.useIdle.025"]}
+{"category": "hooks", "subcategory": "useIntersectionObserver", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["hooks.useIntersectionObserver.015"]}
+{"category": "hooks", "subcategory": "useInterval", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["hooks.useInterval.006"]}
+{"category": "hooks", "subcategory": "useIsOnline", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["hooks.useIsOnline.022"]}
+{"category": "hooks", "subcategory": "useKeyPress", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["hooks.useKeyPress.012"]}
+{"category": "hooks", "subcategory": "useLocalStorage", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["hooks.useLocalStorage.003"]}
+{"category": "hooks", "subcategory": "useMediaQuery", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["hooks.useMediaQuery.007"]}
+{"category": "hooks", "subcategory": "useMounted", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["hooks.useMounted.018"]}
+{"category": "hooks", "subcategory": "usePagination", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["hooks.usePagination.027"]}
+{"category": "hooks", "subcategory": "usePrevious", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["hooks.usePrevious.008"]}
+{"category": "hooks", "subcategory": "useReducerForm", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["hooks.useReducerForm.024"]}
+{"category": "hooks", "subcategory": "useScrollPosition", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["hooks.useScrollPosition.023"]}
+{"category": "hooks", "subcategory": "useSession", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["hooks.useSession.026"]}
+{"category": "hooks", "subcategory": "useSessionStorage", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["hooks.useSessionStorage.020"]}
+{"category": "hooks", "subcategory": "useStep", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["hooks.useStep.010"]}
+{"category": "hooks", "subcategory": "useTimeout", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["hooks.useTimeout.021"]}
+{"category": "hooks", "subcategory": "useToggle_tuple", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["hooks.useToggle_tuple.001"]}
+{"category": "hooks", "subcategory": "useWindowSize", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["hooks.useWindowSize.011"]}
+{"category": "middleware", "subcategory": "api_key_validation", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["middleware.api_key_validation.001"]}
+{"category": "middleware", "subcategory": "bot_block", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["middleware.bot_block.001"]}
+{"category": "middleware", "subcategory": "csrf_token", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["middleware.csrf_token.001"]}
+{"category": "middleware", "subcategory": "locale_redirect", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["middleware.locale_redirect.001"]}
+{"category": "middleware", "subcategory": "maintenance_mode", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["middleware.maintenance_mode.001"]}
+{"category": "middleware", "subcategory": "rate_limit_ip", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["middleware.rate_limit_ip.001"]}
+{"category": "middleware", "subcategory": "session_refresh", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["middleware.session_refresh.001"]}
+{"category": "middleware", "subcategory": "subdomain_routing", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["middleware.subdomain_routing.001"]}
+{"category": "nextjs", "subcategory": "draft_mode", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["nextjs.draft_mode.001"]}
+{"category": "nextjs", "subcategory": "dynamic_page", "n_tasks": 8, "mean_prompt_jaccard": 0.826, "distinct_check_signatures": 8, "task_ids": ["nextjs.dynamic_page.002", "nextjs.dynamic_page.003", "nextjs.dynamic_page.004", "nextjs.dynamic_page.005", "nextjs.dynamic_page.006", "nextjs.dynamic_page.007", "nextjs.dynamic_page.008", "nextjs.dynamic_page.009"]}
+{"category": "nextjs", "subcategory": "error_boundary", "n_tasks": 5, "mean_prompt_jaccard": 0.889, "distinct_check_signatures": 1, "task_ids": ["nextjs.error_boundary.022", "nextjs.error_boundary.023", "nextjs.error_boundary.024", "nextjs.error_boundary.025", "nextjs.error_boundary.026"]}
+{"category": "nextjs", "subcategory": "error_boundary_recovery", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["nextjs.error_boundary_recovery.001"]}
+{"category": "nextjs", "subcategory": "error_boundary_segment", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["nextjs.error_boundary_segment.001"]}
+{"category": "nextjs", "subcategory": "fetch_no_store", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["nextjs.fetch_no_store.001"]}
+{"category": "nextjs", "subcategory": "fetch_revalidate_seconds", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["nextjs.fetch_revalidate_seconds.001"]}
+{"category": "nextjs", "subcategory": "generate_metadata", "n_tasks": 5, "mean_prompt_jaccard": 0.749, "distinct_check_signatures": 5, "task_ids": ["nextjs.generate_metadata.037", "nextjs.generate_metadata.038", "nextjs.generate_metadata.039", "nextjs.generate_metadata.040", "nextjs.generate_metadata.001"]}
+{"category": "nextjs", "subcategory": "home_page", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["nextjs.home_page.001"]}
+{"category": "nextjs", "subcategory": "intercepting_route", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["nextjs.intercepting_route.046"]}
+{"category": "nextjs", "subcategory": "layout_metadata", "n_tasks": 6, "mean_prompt_jaccard": 0.846, "distinct_check_signatures": 1, "task_ids": ["nextjs.layout_metadata.010", "nextjs.layout_metadata.011", "nextjs.layout_metadata.012", "nextjs.layout_metadata.013", "nextjs.layout_metadata.014", "nextjs.layout_metadata.015"]}
+{"category": "nextjs", "subcategory": "loading", "n_tasks": 6, "mean_prompt_jaccard": 0.75, "distinct_check_signatures": 2, "task_ids": ["nextjs.loading.016", "nextjs.loading.017", "nextjs.loading.018", "nextjs.loading.019", "nextjs.loading.020", "nextjs.loading.021"]}
+{"category": "nextjs", "subcategory": "locale_segment_param", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["nextjs.locale_segment_param.001"]}
+{"category": "nextjs", "subcategory": "next_intl_setup", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["nextjs.next_intl_setup.001"]}
+{"category": "nextjs", "subcategory": "not_found", "n_tasks": 4, "mean_prompt_jaccard": 0.857, "distinct_check_signatures": 1, "task_ids": ["nextjs.not_found.027", "nextjs.not_found.028", "nextjs.not_found.029", "nextjs.not_found.030"]}
+{"category": "nextjs", "subcategory": "og_image", "n_tasks": 3, "mean_prompt_jaccard": 0.913, "distinct_check_signatures": 1, "task_ids": ["nextjs.og_image.042", "nextjs.og_image.043", "nextjs.og_image.044"]}
+{"category": "nextjs", "subcategory": "parallel_routes", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["nextjs.parallel_routes.045"]}
+{"category": "nextjs", "subcategory": "parallel_suspense", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["nextjs.parallel_suspense.001"]}
+{"category": "nextjs", "subcategory": "protected_page", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["nextjs.protected_page.041"]}
+{"category": "nextjs", "subcategory": "react_cache", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["nextjs.react_cache.001"]}
+{"category": "nextjs", "subcategory": "revalidate_tag", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["nextjs.revalidate_tag.001"]}
+{"category": "nextjs", "subcategory": "robots_route", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["nextjs.robots_route.047"]}
+{"category": "nextjs", "subcategory": "search_params", "n_tasks": 6, "mean_prompt_jaccard": 0.81, "distinct_check_signatures": 6, "task_ids": ["nextjs.search_params.031", "nextjs.search_params.032", "nextjs.search_params.033", "nextjs.search_params.034", "nextjs.search_params.035", "nextjs.search_params.036"]}
+{"category": "nextjs", "subcategory": "search_params_zod", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["nextjs.search_params_zod.001"]}
+{"category": "nextjs", "subcategory": "sitemap_dynamic", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["nextjs.sitemap_dynamic.001"]}
+{"category": "nextjs", "subcategory": "sitemap_route", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["nextjs.sitemap_route.048"]}
+{"category": "nextjs", "subcategory": "sse_response", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["nextjs.sse_response.001"]}
+{"category": "payments", "subcategory": "cashfree_order", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["payments.cashfree_order.006"]}
+{"category": "payments", "subcategory": "checkout_button", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["payments.checkout_button.018"]}
+{"category": "payments", "subcategory": "dodo_checkout", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["payments.dodo_checkout.015"]}
+{"category": "payments", "subcategory": "lemonsqueezy_checkout", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["payments.lemonsqueezy_checkout.007"]}
+{"category": "payments", "subcategory": "lemonsqueezy_webhook", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["payments.lemonsqueezy_webhook.017"]}
+{"category": "payments", "subcategory": "paddle_checkout", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["payments.paddle_checkout.014"]}
+{"category": "payments", "subcategory": "razorpay_order", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["payments.razorpay_order.013"]}
+{"category": "payments", "subcategory": "stripe_customer_create", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["payments.stripe_customer_create.016"]}
+{"category": "payments", "subcategory": "stripe_payment", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["payments.stripe_payment.004"]}
+{"category": "payments", "subcategory": "stripe_portal", "n_tasks": 4, "mean_prompt_jaccard": 1.0, "distinct_check_signatures": 1, "task_ids": ["payments.stripe_portal.009", "payments.stripe_portal.010", "payments.stripe_portal.011", "payments.stripe_portal.012"]}
+{"category": "payments", "subcategory": "stripe_subscription", "n_tasks": 3, "mean_prompt_jaccard": 0.895, "distinct_check_signatures": 1, "task_ids": ["payments.stripe_subscription.001", "payments.stripe_subscription.002", "payments.stripe_subscription.003"]}
+{"category": "payments", "subcategory": "stripe_webhook", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["payments.stripe_webhook.005"]}
+{"category": "payments", "subcategory": "subscription_card", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["payments.subscription_card.019"]}
+{"category": "payments", "subcategory": "subscription_status", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["payments.subscription_status.008"]}
+{"category": "react", "subcategory": "action_state", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["react.action_state.001"]}
+{"category": "react", "subcategory": "avatar", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["react.avatar.021"]}
+{"category": "react", "subcategory": "breadcrumbs", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["react.breadcrumbs.033"]}
+{"category": "react", "subcategory": "card", "n_tasks": 5, "mean_prompt_jaccard": 0.692, "distinct_check_signatures": 1, "task_ids": ["react.card.014", "react.card.015", "react.card.016", "react.card.017", "react.card.018"]}
+{"category": "react", "subcategory": "click_outside_hook", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["react.click_outside_hook.001"]}
+{"category": "react", "subcategory": "combobox", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["react.combobox.027"]}
+{"category": "react", "subcategory": "confirm_dialog", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["react.confirm_dialog.032"]}
+{"category": "react", "subcategory": "copy", "n_tasks": 5, "mean_prompt_jaccard": 0.846, "distinct_check_signatures": 1, "task_ids": ["react.copy.001", "react.copy.002", "react.copy.003", "react.copy.004", "react.copy.005"]}
+{"category": "react", "subcategory": "counter", "n_tasks": 4, "mean_prompt_jaccard": 0.818, "distinct_check_signatures": 1, "task_ids": ["react.counter.006", "react.counter.007", "react.counter.008", "react.counter.009"]}
+{"category": "react", "subcategory": "data_table", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["react.data_table.034"]}
+{"category": "react", "subcategory": "dropdown_menu", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["react.dropdown_menu.039"]}
+{"category": "react", "subcategory": "empty_state", "n_tasks": 4, "mean_prompt_jaccard": 0.667, "distinct_check_signatures": 1, "task_ids": ["react.empty_state.022", "react.empty_state.023", "react.empty_state.024", "react.empty_state.025"]}
+{"category": "react", "subcategory": "file_drop_zone", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["react.file_drop_zone.001"]}
+{"category": "react", "subcategory": "form_action", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["react.form_action.001"]}
+{"category": "react", "subcategory": "icon_button", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["react.icon_button.038"]}
+{"category": "react", "subcategory": "intersection_observer_hook", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["react.intersection_observer_hook.001"]}
+{"category": "react", "subcategory": "modal_basic", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["react.modal_basic.019"]}
+{"category": "react", "subcategory": "optimistic_chat", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["react.optimistic_chat.001"]}
+{"category": "react", "subcategory": "pagination", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["react.pagination.026"]}
+{"category": "react", "subcategory": "rating_stars", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["react.rating_stars.036"]}
+{"category": "react", "subcategory": "skeleton", "n_tasks": 4, "mean_prompt_jaccard": 0.6, "distinct_check_signatures": 1, "task_ids": ["react.skeleton.028", "react.skeleton.029", "react.skeleton.030", "react.skeleton.031"]}
+{"category": "react", "subcategory": "spinner", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["react.spinner.035"]}
+{"category": "react", "subcategory": "tabs_active_content", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["react.tabs_active_content.020"]}
+{"category": "react", "subcategory": "toggle", "n_tasks": 4, "mean_prompt_jaccard": 0.818, "distinct_check_signatures": 1, "task_ids": ["react.toggle.010", "react.toggle.011", "react.toggle.012", "react.toggle.013"]}
+{"category": "react", "subcategory": "tooltip", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["react.tooltip.037"]}
+{"category": "react", "subcategory": "use_context_typed", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["react.use_context_typed.001"]}
+{"category": "react", "subcategory": "use_event_source", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["react.use_event_source.001"]}
+{"category": "react", "subcategory": "use_form_state", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["react.use_form_state.001"]}
+{"category": "react", "subcategory": "use_promise", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["react.use_promise.001"]}
+{"category": "react", "subcategory": "use_search_params_client", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["react.use_search_params_client.001"]}
+{"category": "react", "subcategory": "use_transition_state", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["react.use_transition_state.001"]}
+{"category": "react", "subcategory": "use_websocket_hook", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["react.use_websocket_hook.001"]}
+{"category": "server-actions", "subcategory": "archive", "n_tasks": 6, "mean_prompt_jaccard": 0.867, "distinct_check_signatures": 6, "task_ids": ["server-actions.archive.025", "server-actions.archive.026", "server-actions.archive.027", "server-actions.archive.028", "server-actions.archive.029", "server-actions.archive.030"]}
+{"category": "server-actions", "subcategory": "cookies_set", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["server-actions.cookies_set.001"]}
+{"category": "server-actions", "subcategory": "create_zod", "n_tasks": 10, "mean_prompt_jaccard": 0.871, "distinct_check_signatures": 10, "task_ids": ["server-actions.create_zod.001", "server-actions.create_zod.002", "server-actions.create_zod.003", "server-actions.create_zod.004", "server-actions.create_zod.005", "server-actions.create_zod.006", "server-actions.create_zod.007", "server-actions.create_zod.008", "server-actions.create_zod.009", "server-actions.create_zod.010"]}
+{"category": "server-actions", "subcategory": "delete", "n_tasks": 6, "mean_prompt_jaccard": 0.867, "distinct_check_signatures": 6, "task_ids": ["server-actions.delete.019", "server-actions.delete.020", "server-actions.delete.021", "server-actions.delete.022", "server-actions.delete.023", "server-actions.delete.024"]}
+{"category": "server-actions", "subcategory": "formdata", "n_tasks": 4, "mean_prompt_jaccard": 0.862, "distinct_check_signatures": 1, "task_ids": ["server-actions.formdata.031", "server-actions.formdata.032", "server-actions.formdata.033", "server-actions.formdata.034"]}
+{"category": "server-actions", "subcategory": "headers_check", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["server-actions.headers_check.001"]}
+{"category": "server-actions", "subcategory": "transaction", "n_tasks": 4, "mean_prompt_jaccard": 0.871, "distinct_check_signatures": 4, "task_ids": ["server-actions.transaction.035", "server-actions.transaction.036", "server-actions.transaction.037", "server-actions.transaction.038"]}
+{"category": "server-actions", "subcategory": "update_zod", "n_tasks": 8, "mean_prompt_jaccard": 0.882, "distinct_check_signatures": 8, "task_ids": ["server-actions.update_zod.011", "server-actions.update_zod.012", "server-actions.update_zod.013", "server-actions.update_zod.014", "server-actions.update_zod.015", "server-actions.update_zod.016", "server-actions.update_zod.017", "server-actions.update_zod.018"]}
+{"category": "server-actions", "subcategory": "use_form_status_pending", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["server-actions.use_form_status_pending.001"]}
+{"category": "server-actions", "subcategory": "zod_field_errors", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["server-actions.zod_field_errors.001"]}
+{"category": "tailwind", "subcategory": "alert_variant", "n_tasks": 4, "mean_prompt_jaccard": 1.0, "distinct_check_signatures": 1, "task_ids": ["tailwind.alert_variant.013", "tailwind.alert_variant.014", "tailwind.alert_variant.015", "tailwind.alert_variant.016"]}
+{"category": "tailwind", "subcategory": "blog_card", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["tailwind.blog_card.019"]}
+{"category": "tailwind", "subcategory": "card_grid", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["tailwind.card_grid.025"]}
+{"category": "tailwind", "subcategory": "command_palette", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["tailwind.command_palette.022"]}
+{"category": "tailwind", "subcategory": "cta_section", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["tailwind.cta_section.020"]}
+{"category": "tailwind", "subcategory": "feature_grid", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["tailwind.feature_grid.018"]}
+{"category": "tailwind", "subcategory": "footer_grid", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["tailwind.footer_grid.007"]}
+{"category": "tailwind", "subcategory": "hero", "n_tasks": 5, "mean_prompt_jaccard": 0.667, "distinct_check_signatures": 1, "task_ids": ["tailwind.hero.001", "tailwind.hero.002", "tailwind.hero.003", "tailwind.hero.004", "tailwind.hero.005"]}
+{"category": "tailwind", "subcategory": "navbar_responsive", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["tailwind.navbar_responsive.006"]}
+{"category": "tailwind", "subcategory": "pricing_card", "n_tasks": 4, "mean_prompt_jaccard": 0.833, "distinct_check_signatures": 1, "task_ids": ["tailwind.pricing_card.008", "tailwind.pricing_card.009", "tailwind.pricing_card.010", "tailwind.pricing_card.011"]}
+{"category": "tailwind", "subcategory": "section_header", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["tailwind.section_header.023"]}
+{"category": "tailwind", "subcategory": "settings_layout", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["tailwind.settings_layout.024"]}
+{"category": "tailwind", "subcategory": "stats_bar", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["tailwind.stats_bar.012"]}
+{"category": "tailwind", "subcategory": "stats_dashboard", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["tailwind.stats_dashboard.021"]}
+{"category": "tailwind", "subcategory": "table_responsive", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["tailwind.table_responsive.026"]}
+{"category": "tailwind", "subcategory": "testimonial", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["tailwind.testimonial.017"]}
+{"category": "typescript", "subcategory": "awaited_simple", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["typescript.awaited_simple.018"]}
+{"category": "typescript", "subcategory": "branded_id", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["typescript.branded_id.027"]}
+{"category": "typescript", "subcategory": "deep_partial", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["typescript.deep_partial.014"]}
+{"category": "typescript", "subcategory": "deep_readonly", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["typescript.deep_readonly.021"]}
+{"category": "typescript", "subcategory": "discriminated_union", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["typescript.discriminated_union.009"]}
+{"category": "typescript", "subcategory": "exclude_keys", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["typescript.exclude_keys.023"]}
+{"category": "typescript", "subcategory": "extract_array_element", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["typescript.extract_array_element.024"]}
+{"category": "typescript", "subcategory": "function_args", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["typescript.function_args.025"]}
+{"category": "typescript", "subcategory": "function_return", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["typescript.function_return.026"]}
+{"category": "typescript", "subcategory": "infer_values", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["typescript.infer_values.019"]}
+{"category": "typescript", "subcategory": "interface", "n_tasks": 8, "mean_prompt_jaccard": 0.778, "distinct_check_signatures": 1, "task_ids": ["typescript.interface.001", "typescript.interface.002", "typescript.interface.003", "typescript.interface.004", "typescript.interface.005", "typescript.interface.006", "typescript.interface.007", "typescript.interface.008"]}
+{"category": "typescript", "subcategory": "non_nullable", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["typescript.non_nullable.015"]}
+{"category": "typescript", "subcategory": "pick_by_value", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["typescript.pick_by_value.017"]}
+{"category": "typescript", "subcategory": "readonly_partial", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["typescript.readonly_partial.016"]}
+{"category": "typescript", "subcategory": "result_type", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["typescript.result_type.020"]}
+{"category": "typescript", "subcategory": "type_guard", "n_tasks": 4, "mean_prompt_jaccard": 0.517, "distinct_check_signatures": 4, "task_ids": ["typescript.type_guard.010", "typescript.type_guard.011", "typescript.type_guard.012", "typescript.type_guard.013"]}
+{"category": "typescript", "subcategory": "typed_event_emitter", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["typescript.typed_event_emitter.022"]}
+{"category": "utils", "subcategory": "assert_unreachable", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["utils.assert_unreachable.027"]}
+{"category": "utils", "subcategory": "build_query_string", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["utils.build_query_string.022"]}
+{"category": "utils", "subcategory": "capitalize", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["utils.capitalize.020"]}
+{"category": "utils", "subcategory": "chunk", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["utils.chunk.004"]}
+{"category": "utils", "subcategory": "clamp", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["utils.clamp.009"]}
+{"category": "utils", "subcategory": "cn", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["utils.cn.012"]}
+{"category": "utils", "subcategory": "debounce_fn", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["utils.debounce_fn.007"]}
+{"category": "utils", "subcategory": "deep_clone", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["utils.deep_clone.024"]}
+{"category": "utils", "subcategory": "format_bytes", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["utils.format_bytes.001"]}
+{"category": "utils", "subcategory": "format_currency", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["utils.format_currency.015"]}
+{"category": "utils", "subcategory": "format_date", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["utils.format_date.016"]}
+{"category": "utils", "subcategory": "format_relative_time", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["utils.format_relative_time.002"]}
+{"category": "utils", "subcategory": "groupby", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["utils.groupby.005"]}
+{"category": "utils", "subcategory": "is_browser", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["utils.is_browser.014"]}
+{"category": "utils", "subcategory": "is_valid_email", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["utils.is_valid_email.017"]}
+{"category": "utils", "subcategory": "is_valid_url", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["utils.is_valid_url.018"]}
+{"category": "utils", "subcategory": "memoize", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["utils.memoize.026"]}
+{"category": "utils", "subcategory": "noop", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["utils.noop.023"]}
+{"category": "utils", "subcategory": "parse_query_string", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["utils.parse_query_string.021"]}
+{"category": "utils", "subcategory": "retry", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["utils.retry.006"]}
+{"category": "utils", "subcategory": "safe_json_parse", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["utils.safe_json_parse.008"]}
+{"category": "utils", "subcategory": "shallow_equal", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["utils.shallow_equal.025"]}
+{"category": "utils", "subcategory": "sleep", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["utils.sleep.011"]}
+{"category": "utils", "subcategory": "slugify", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["utils.slugify.003"]}
+{"category": "utils", "subcategory": "truncate", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["utils.truncate.019"]}
+{"category": "utils", "subcategory": "typed_env", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["utils.typed_env.013"]}
+{"category": "utils", "subcategory": "unique", "n_tasks": 1, "mean_prompt_jaccard": null, "distinct_check_signatures": 1, "task_ids": ["utils.unique.010"]}
