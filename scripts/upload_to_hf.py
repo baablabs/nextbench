@@ -25,10 +25,13 @@ Usage:
 What gets uploaded:
   - README.md (with HF dataset card frontmatter — `load_dataset` reads this)
   - LICENSE
-  - LEADERBOARD.md, REPORT.md, ANALYSIS_v0.1.md (visible in dataset card)
+  - LEADERBOARD.md, REPORT.md, STATUS.md, ANALYSIS_v0.1.md, CAPABILITY_ANALYSIS_v0.1.md
+    (visible in dataset card / repo browser)
   - tasks/ (the JSONL data files — these become splits)
-  - outputs/ (canonical model outputs — useful for re-verification)
-  - run_eval.py, grade.py, scripts/ (so users can reproduce locally)
+  - outputs/ (canonical v0.2 model outputs — useful for re-verification)
+  - outputs_v01/ (historical v0.1 outputs preserved for reference)
+  - run_eval.py, run_eval_litgpt.py, grade.py, scripts/ (reproducibility)
+  - audit_report_v02*.json, retired_v01.jsonl (transparency artifacts)
 
 What does NOT get uploaded:
   - .git/, __pycache__/, .DS_Store, anything matched by .gitignore
@@ -47,7 +50,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--repo-id", default=DEFAULT_REPO_ID, help=f"HF repo id (default: {DEFAULT_REPO_ID})")
     parser.add_argument("--dry-run", action="store_true", help="List what would upload without pushing")
-    parser.add_argument("--commit-message", default="Upload NextBench v0.1")
+    parser.add_argument("--commit-message", default="Upload NextBench v0.2")
     args = parser.parse_args()
 
     try:
@@ -108,7 +111,7 @@ def main():
         repo_id=args.repo_id,
         repo_type="dataset",
         commit_message=args.commit_message,
-        ignore_patterns=[".git/*", "__pycache__/*", ".DS_Store", "outputs/_scratch_*"],
+        ignore_patterns=[".git/*", "__pycache__/*", ".DS_Store", "outputs/_scratch_*", "*.bak", "*.pyc"],
     )
 
     print(f"\nDone. View at: https://huggingface.co/datasets/{args.repo_id}")

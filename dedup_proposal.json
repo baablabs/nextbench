@@ -1,0 +1,678 @@
+{
+  "saturated_retirements": [
+    "database.prisma_aggregate.028",
+    "database.prisma_pagination.021",
+    "database.prisma_pagination.022",
+    "form.rhf_signin.002",
+    "hooks.useMounted.018",
+    "hooks.useToggle_tuple.001",
+    "nextjs.generate_metadata.037",
+    "nextjs.not_found.027",
+    "nextjs.not_found.028",
+    "nextjs.not_found.029",
+    "nextjs.not_found.030",
+    "react.copy.002",
+    "react.copy.003",
+    "react.copy.005",
+    "react.counter.006",
+    "react.counter.008",
+    "react.rating_stars.036",
+    "tailwind.section_header.023",
+    "typescript.interface.002",
+    "typescript.interface.004",
+    "typescript.interface.007",
+    "typescript.interface.008",
+    "utils.debounce_fn.007",
+    "utils.format_bytes.001",
+    "utils.safe_json_parse.008",
+    "utils.shallow_equal.025",
+    "utils.slugify.003"
+  ],
+  "redundant_retirements": [
+    "api-routes.auth_gated.025",
+    "api-routes.auth_gated.027",
+    "api-routes.auth_gated.028",
+    "api-routes.get_list.001",
+    "api-routes.get_list.003",
+    "api-routes.get_list.005",
+    "api-routes.get_list.008",
+    "api-routes.get_single.009",
+    "api-routes.get_single.011",
+    "api-routes.get_single.013",
+    "api-routes.post_create.016",
+    "api-routes.post_create.018",
+    "api-routes.post_create.020",
+    "api-routes.rate_limit.030",
+    "api-routes.rate_limit.033",
+    "api-routes.webhook.023",
+    "api-routes.webhook.024",
+    "auth.nextauth_config.002",
+    "auth.nextauth_config.003",
+    "auth.protected_component.006",
+    "auth.protected_component.008",
+    "database.drizzle_schema.016",
+    "database.drizzle_schema.017",
+    "database.prisma_model.002",
+    "database.prisma_model.003",
+    "database.prisma_model.004",
+    "database.prisma_model.007",
+    "database.prisma_model.009",
+    "database.prisma_relations.012",
+    "database.prisma_relations.015",
+    "form.use_form_status.004",
+    "form.use_form_status.006",
+    "nextjs.dynamic_page.004",
+    "nextjs.dynamic_page.005",
+    "nextjs.dynamic_page.006",
+    "nextjs.dynamic_page.008",
+    "nextjs.error_boundary.022",
+    "nextjs.error_boundary.023",
+    "nextjs.error_boundary.025",
+    "nextjs.generate_metadata.040",
+    "nextjs.layout_metadata.010",
+    "nextjs.layout_metadata.011",
+    "nextjs.layout_metadata.014",
+    "nextjs.loading.018",
+    "nextjs.loading.020",
+    "nextjs.loading.021",
+    "nextjs.search_params.031",
+    "nextjs.search_params.032",
+    "nextjs.search_params.033",
+    "payments.stripe_portal.009"
+  ],
+  "cluster_decisions": [
+    {
+      "category": "api-routes",
+      "subcategory": "auth_gated",
+      "size": 5,
+      "keep_n": 2,
+      "retire_n": 3,
+      "kept": [
+        "api-routes.auth_gated.029",
+        "api-routes.auth_gated.026"
+      ],
+      "retired": [
+        "api-routes.auth_gated.025",
+        "api-routes.auth_gated.027",
+        "api-routes.auth_gated.028"
+      ]
+    },
+    {
+      "category": "api-routes",
+      "subcategory": "get_list",
+      "size": 8,
+      "keep_n": 4,
+      "retire_n": 4,
+      "kept": [
+        "api-routes.get_list.006",
+        "api-routes.get_list.002",
+        "api-routes.get_list.007",
+        "api-routes.get_list.004"
+      ],
+      "retired": [
+        "api-routes.get_list.005",
+        "api-routes.get_list.008",
+        "api-routes.get_list.001",
+        "api-routes.get_list.003"
+      ]
+    },
+    {
+      "category": "api-routes",
+      "subcategory": "get_single",
+      "size": 6,
+      "keep_n": 3,
+      "retire_n": 3,
+      "kept": [
+        "api-routes.get_single.012",
+        "api-routes.get_single.014",
+        "api-routes.get_single.010"
+      ],
+      "retired": [
+        "api-routes.get_single.013",
+        "api-routes.get_single.009",
+        "api-routes.get_single.011"
+      ]
+    },
+    {
+      "category": "api-routes",
+      "subcategory": "post_create",
+      "size": 6,
+      "keep_n": 3,
+      "retire_n": 3,
+      "kept": [
+        "api-routes.post_create.015",
+        "api-routes.post_create.017",
+        "api-routes.post_create.019"
+      ],
+      "retired": [
+        "api-routes.post_create.016",
+        "api-routes.post_create.020",
+        "api-routes.post_create.018"
+      ]
+    },
+    {
+      "category": "api-routes",
+      "subcategory": "rate_limit",
+      "size": 4,
+      "keep_n": 2,
+      "retire_n": 2,
+      "kept": [
+        "api-routes.rate_limit.031",
+        "api-routes.rate_limit.032"
+      ],
+      "retired": [
+        "api-routes.rate_limit.030",
+        "api-routes.rate_limit.033"
+      ]
+    },
+    {
+      "category": "api-routes",
+      "subcategory": "webhook",
+      "size": 4,
+      "keep_n": 2,
+      "retire_n": 2,
+      "kept": [
+        "api-routes.webhook.021",
+        "api-routes.webhook.022"
+      ],
+      "retired": [
+        "api-routes.webhook.024",
+        "api-routes.webhook.023"
+      ]
+    },
+    {
+      "category": "auth",
+      "subcategory": "nextauth_config",
+      "size": 4,
+      "keep_n": 2,
+      "retire_n": 2,
+      "kept": [
+        "auth.nextauth_config.004",
+        "auth.nextauth_config.001"
+      ],
+      "retired": [
+        "auth.nextauth_config.003",
+        "auth.nextauth_config.002"
+      ]
+    },
+    {
+      "category": "auth",
+      "subcategory": "protected_component",
+      "size": 4,
+      "keep_n": 2,
+      "retire_n": 2,
+      "kept": [
+        "auth.protected_component.007",
+        "auth.protected_component.009"
+      ],
+      "retired": [
+        "auth.protected_component.008",
+        "auth.protected_component.006"
+      ]
+    },
+    {
+      "category": "database",
+      "subcategory": "drizzle_schema",
+      "size": 4,
+      "keep_n": 2,
+      "retire_n": 2,
+      "kept": [
+        "database.drizzle_schema.018",
+        "database.drizzle_schema.019"
+      ],
+      "retired": [
+        "database.drizzle_schema.016",
+        "database.drizzle_schema.017"
+      ]
+    },
+    {
+      "category": "database",
+      "subcategory": "prisma_model",
+      "size": 10,
+      "keep_n": 5,
+      "retire_n": 5,
+      "kept": [
+        "database.prisma_model.001",
+        "database.prisma_model.005",
+        "database.prisma_model.006",
+        "database.prisma_model.008",
+        "database.prisma_model.010"
+      ],
+      "retired": [
+        "database.prisma_model.002",
+        "database.prisma_model.003",
+        "database.prisma_model.004",
+        "database.prisma_model.009",
+        "database.prisma_model.007"
+      ]
+    },
+    {
+      "category": "database",
+      "subcategory": "prisma_relations",
+      "size": 4,
+      "keep_n": 2,
+      "retire_n": 2,
+      "kept": [
+        "database.prisma_relations.014",
+        "database.prisma_relations.013"
+      ],
+      "retired": [
+        "database.prisma_relations.012",
+        "database.prisma_relations.015"
+      ]
+    },
+    {
+      "category": "form",
+      "subcategory": "use_form_status",
+      "size": 4,
+      "keep_n": 2,
+      "retire_n": 2,
+      "kept": [
+        "form.use_form_status.005",
+        "form.use_form_status.007"
+      ],
+      "retired": [
+        "form.use_form_status.004",
+        "form.use_form_status.006"
+      ]
+    },
+    {
+      "category": "nextjs",
+      "subcategory": "dynamic_page",
+      "size": 8,
+      "keep_n": 4,
+      "retire_n": 4,
+      "kept": [
+        "nextjs.dynamic_page.009",
+        "nextjs.dynamic_page.002",
+        "nextjs.dynamic_page.003",
+        "nextjs.dynamic_page.007"
+      ],
+      "retired": [
+        "nextjs.dynamic_page.004",
+        "nextjs.dynamic_page.005",
+        "nextjs.dynamic_page.006",
+        "nextjs.dynamic_page.008"
+      ]
+    },
+    {
+      "category": "nextjs",
+      "subcategory": "error_boundary",
+      "size": 5,
+      "keep_n": 2,
+      "retire_n": 3,
+      "kept": [
+        "nextjs.error_boundary.024",
+        "nextjs.error_boundary.026"
+      ],
+      "retired": [
+        "nextjs.error_boundary.025",
+        "nextjs.error_boundary.022",
+        "nextjs.error_boundary.023"
+      ]
+    },
+    {
+      "category": "nextjs",
+      "subcategory": "generate_metadata",
+      "size": 5,
+      "keep_n": 2,
+      "retire_n": 2,
+      "kept": [
+        "nextjs.generate_metadata.038",
+        "nextjs.generate_metadata.039"
+      ],
+      "retired": [
+        "nextjs.generate_metadata.040"
+      ]
+    },
+    {
+      "category": "nextjs",
+      "subcategory": "layout_metadata",
+      "size": 6,
+      "keep_n": 3,
+      "retire_n": 3,
+      "kept": [
+        "nextjs.layout_metadata.012",
+        "nextjs.layout_metadata.013",
+        "nextjs.layout_metadata.015"
+      ],
+      "retired": [
+        "nextjs.layout_metadata.010",
+        "nextjs.layout_metadata.011",
+        "nextjs.layout_metadata.014"
+      ]
+    },
+    {
+      "category": "nextjs",
+      "subcategory": "loading",
+      "size": 6,
+      "keep_n": 3,
+      "retire_n": 3,
+      "kept": [
+        "nextjs.loading.016",
+        "nextjs.loading.019",
+        "nextjs.loading.017"
+      ],
+      "retired": [
+        "nextjs.loading.018",
+        "nextjs.loading.020",
+        "nextjs.loading.021"
+      ]
+    },
+    {
+      "category": "nextjs",
+      "subcategory": "not_found",
+      "size": 4,
+      "keep_n": 2,
+      "retire_n": 2,
+      "kept": [
+        "nextjs.not_found.029",
+        "nextjs.not_found.030"
+      ],
+      "retired": []
+    },
+    {
+      "category": "nextjs",
+      "subcategory": "search_params",
+      "size": 6,
+      "keep_n": 3,
+      "retire_n": 3,
+      "kept": [
+        "nextjs.search_params.034",
+        "nextjs.search_params.036",
+        "nextjs.search_params.035"
+      ],
+      "retired": [
+        "nextjs.search_params.031",
+        "nextjs.search_params.032",
+        "nextjs.search_params.033"
+      ]
+    },
+    {
+      "category": "payments",
+      "subcategory": "stripe_portal",
+      "size": 4,
+      "keep_n": 2,
+      "retire_n": 2,
+      "kept": [
+        "payments.stripe_portal.011",
+        "payments.stripe_portal.012"
+      ],
+      "retired": [
+        "payments.stripe_portal.009",
+        "payments.stripe_portal.010"
+      ]
+    },
+    {
+      "category": "react",
+      "subcategory": "card",
+      "size": 5,
+      "keep_n": 2,
+      "retire_n": 3,
+      "kept": [
+        "react.card.018",
+        "react.card.017"
+      ],
+      "retired": [
+        "react.card.015",
+        "react.card.014",
+        "react.card.016"
+      ]
+    },
+    {
+      "category": "react",
+      "subcategory": "copy",
+      "size": 5,
+      "keep_n": 2,
+      "retire_n": 3,
+      "kept": [
+        "react.copy.001",
+        "react.copy.004"
+      ],
+      "retired": []
+    },
+    {
+      "category": "react",
+      "subcategory": "counter",
+      "size": 4,
+      "keep_n": 2,
+      "retire_n": 2,
+      "kept": [
+        "react.counter.009",
+        "react.counter.007"
+      ],
+      "retired": []
+    },
+    {
+      "category": "react",
+      "subcategory": "empty_state",
+      "size": 4,
+      "keep_n": 2,
+      "retire_n": 2,
+      "kept": [
+        "react.empty_state.023",
+        "react.empty_state.024"
+      ],
+      "retired": [
+        "react.empty_state.022",
+        "react.empty_state.025"
+      ]
+    },
+    {
+      "category": "react",
+      "subcategory": "skeleton",
+      "size": 4,
+      "keep_n": 2,
+      "retire_n": 2,
+      "kept": [
+        "react.skeleton.031",
+        "react.skeleton.029"
+      ],
+      "retired": [
+        "react.skeleton.030",
+        "react.skeleton.028"
+      ]
+    },
+    {
+      "category": "react",
+      "subcategory": "toggle",
+      "size": 4,
+      "keep_n": 2,
+      "retire_n": 2,
+      "kept": [
+        "react.toggle.012",
+        "react.toggle.013"
+      ],
+      "retired": [
+        "react.toggle.010",
+        "react.toggle.011"
+      ]
+    },
+    {
+      "category": "server-actions",
+      "subcategory": "archive",
+      "size": 6,
+      "keep_n": 3,
+      "retire_n": 3,
+      "kept": [
+        "server-actions.archive.030",
+        "server-actions.archive.026",
+        "server-actions.archive.029"
+      ],
+      "retired": [
+        "server-actions.archive.025",
+        "server-actions.archive.027",
+        "server-actions.archive.028"
+      ]
+    },
+    {
+      "category": "server-actions",
+      "subcategory": "create_zod",
+      "size": 10,
+      "keep_n": 5,
+      "retire_n": 5,
+      "kept": [
+        "server-actions.create_zod.006",
+        "server-actions.create_zod.008",
+        "server-actions.create_zod.009",
+        "server-actions.create_zod.010",
+        "server-actions.create_zod.007"
+      ],
+      "retired": [
+        "server-actions.create_zod.005",
+        "server-actions.create_zod.001",
+        "server-actions.create_zod.002",
+        "server-actions.create_zod.003",
+        "server-actions.create_zod.004"
+      ]
+    },
+    {
+      "category": "server-actions",
+      "subcategory": "delete",
+      "size": 6,
+      "keep_n": 3,
+      "retire_n": 3,
+      "kept": [
+        "server-actions.delete.021",
+        "server-actions.delete.019",
+        "server-actions.delete.024"
+      ],
+      "retired": [
+        "server-actions.delete.022",
+        "server-actions.delete.020",
+        "server-actions.delete.023"
+      ]
+    },
+    {
+      "category": "server-actions",
+      "subcategory": "formdata",
+      "size": 4,
+      "keep_n": 2,
+      "retire_n": 2,
+      "kept": [
+        "server-actions.formdata.033",
+        "server-actions.formdata.034"
+      ],
+      "retired": [
+        "server-actions.formdata.032",
+        "server-actions.formdata.031"
+      ]
+    },
+    {
+      "category": "server-actions",
+      "subcategory": "transaction",
+      "size": 4,
+      "keep_n": 2,
+      "retire_n": 2,
+      "kept": [
+        "server-actions.transaction.038",
+        "server-actions.transaction.037"
+      ],
+      "retired": [
+        "server-actions.transaction.035",
+        "server-actions.transaction.036"
+      ]
+    },
+    {
+      "category": "server-actions",
+      "subcategory": "update_zod",
+      "size": 8,
+      "keep_n": 4,
+      "retire_n": 4,
+      "kept": [
+        "server-actions.update_zod.012",
+        "server-actions.update_zod.013",
+        "server-actions.update_zod.014",
+        "server-actions.update_zod.016"
+      ],
+      "retired": [
+        "server-actions.update_zod.011",
+        "server-actions.update_zod.015",
+        "server-actions.update_zod.017",
+        "server-actions.update_zod.018"
+      ]
+    },
+    {
+      "category": "tailwind",
+      "subcategory": "alert_variant",
+      "size": 4,
+      "keep_n": 2,
+      "retire_n": 2,
+      "kept": [
+        "tailwind.alert_variant.016",
+        "tailwind.alert_variant.014"
+      ],
+      "retired": [
+        "tailwind.alert_variant.015",
+        "tailwind.alert_variant.013"
+      ]
+    },
+    {
+      "category": "tailwind",
+      "subcategory": "hero",
+      "size": 5,
+      "keep_n": 2,
+      "retire_n": 3,
+      "kept": [
+        "tailwind.hero.005",
+        "tailwind.hero.004"
+      ],
+      "retired": [
+        "tailwind.hero.003",
+        "tailwind.hero.002",
+        "tailwind.hero.001"
+      ]
+    },
+    {
+      "category": "tailwind",
+      "subcategory": "pricing_card",
+      "size": 4,
+      "keep_n": 2,
+      "retire_n": 2,
+      "kept": [
+        "tailwind.pricing_card.011",
+        "tailwind.pricing_card.009"
+      ],
+      "retired": [
+        "tailwind.pricing_card.010",
+        "tailwind.pricing_card.008"
+      ]
+    },
+    {
+      "category": "typescript",
+      "subcategory": "interface",
+      "size": 8,
+      "keep_n": 4,
+      "retire_n": 4,
+      "kept": [
+        "typescript.interface.006",
+        "typescript.interface.003",
+        "typescript.interface.001",
+        "typescript.interface.005"
+      ],
+      "retired": []
+    },
+    {
+      "category": "typescript",
+      "subcategory": "type_guard",
+      "size": 4,
+      "keep_n": 2,
+      "retire_n": 2,
+      "kept": [
+        "typescript.type_guard.012",
+        "typescript.type_guard.013"
+      ],
+      "retired": [
+        "typescript.type_guard.010",
+        "typescript.type_guard.011"
+      ]
+    }
+  ],
+  "summary": {
+    "total_tasks_current": 409,
+    "saturated_n": 27,
+    "redundant_n": 50,
+    "total_retire": 77,
+    "remaining": 332
+  }
+}

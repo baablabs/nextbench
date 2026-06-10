@@ -130,6 +130,10 @@ def main():
     parser.add_argument("--tasks-dir", default=str(TASKS_DIR))
     parser.add_argument("--category", default=None, help="Run only one category")
     parser.add_argument("--limit", type=int, default=0, help="Cap number of tasks")
+    parser.add_argument("--task-ids", default=None,
+                        help="Path to file with one task_id per line; only those tasks run")
+    parser.add_argument("--append", action="store_true",
+                        help="Append to output file instead of overwriting")
     parser.add_argument("--output", default=None)
     parser.add_argument("--max-tokens", type=int, default=500)
     parser.add_argument("--temperature", type=float, default=0.0)
@@ -142,6 +146,12 @@ def main():
     args = parser.parse_args()
 
     tasks = load_tasks(Path(args.tasks_dir), category=args.category)
+    if args.task_ids:
+        wanted = {ln.strip() for ln in open(args.task_ids) if ln.strip()}
+        tasks = [t for t in tasks if t["task_id"] in wanted]
+        missing = wanted - {t["task_id"] for t in tasks}
+        if missing:
+            print(f"WARN: {len(missing)} task_ids not found in corpus (first 5: {list(missing)[:5]})", flush=True)
     if args.limit:
         tasks = tasks[: args.limit]
     if not tasks:
@@ -167,7 +177,7 @@ def main():
         "num_ctx": args.num_ctx,
     }
 
-    out_f = open(out_path, "w")
+    out_f = open(out_path, "a" if args.append else "w")
     start = time.time()
     last_log = start
     total_tokens = 0
